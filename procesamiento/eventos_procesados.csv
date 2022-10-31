@@ -1,234 +1,234 @@
-id_evento,nombre_evento,recinto,fecha_inicio,fecha_termino,artista,productora
-0,Rio Concert,Vivo Rio,2016-02-26,2016-02-29,Francisca Valenzuela,Agencia 360
-1,Mil Rosas,Mercedes-Benz Arena,2022-11-29,2022-11-29,La Oreja de Van Gogh,Eventveranstalter Hamburg
-2,Bachata en vivo,Irving Plaza,2020-11-05,2020-11-05,Prince Royce,The Imagos
-3,Como si no importara,Arena Ludwingsburg,2021-01-23,2021-01-23,Emilia,fullevent.de
-4,Epic Show,Freiheitshalle,2022-04-03,2022-04-03,The Martinez Brothers,B+D Events
-5,Niño Blessi,SOF Q8 Toinha Brasil,2019-09-08,2019-09-08,DrefQuila,Urban Music
-6,BZRP Tour,Pabellon Max Schmeling,2020-05-09,2020-05-09,Cazzu,Nachhaltige Events
-7,Super Bass Tour,Warehouse Live,2022-04-02,2022-04-02,Nicki Minaj,The Imagos
-8,Quedate,Mercedes-Benz Arena,2022-01-19,2022-01-19,Quevedo,Eventveranstalter Hamburg
-9,La Gasolina,Estadio Santa Laura,2016-12-16,2016-12-18,Daddy Yankee,Global producciones spa
-10,R3hab live show,Velodromo de Berlin,2022-09-19,2022-09-19,R3hab,KahnEvents GmbH
-11,CLARITY,Estadio Nacional,2018-08-17,2018-08-19,Kesha,DG Medios y espectaculos s.a.
-12,Cerca de ti,Teatro Cariola,2022-01-28,2022-01-28,Tiago PZK,Club providencia
-13,Say you wont let go,Antel Arena,2022-02-08,2022-02-08,James Arthur,PROSPERO PRODUCCIONES
-14,Twelve Carat Tour,The Anthem,2018-01-29,2018-01-29,Post Malone,AEG
-15,Belinda Comeback,E-Werk,2016-01-30,2016-01-30,Belinda,Europages
-16,Anastasia,Salitre Magico,2019-12-07,2019-12-07,Cami,Ye & Ca Producciones
-17,AgendaMusic,Sala La Rivera,2018-06-20,2018-06-22,Ozuna,LetsGo Company
-18,Disney Concert,Estadio Unico Diego Armando Maradona,2016-03-15,2016-03-18,Olivia Rodrigo,ATOMIC FILMS
-19,WAP,E-Werk,2016-03-06,2016-03-06,Cardi B,MGC
-20,CLARITY,Estadio Nacional,2018-08-17,2018-08-19,Zedd,DG Medios y espectaculos s.a.
-21,Passionfruit,Explanada Ciudad Empresarial,2020-04-13,2020-04-13,Drake,Reverb - productora de eventos
-22,Fourplan Event,Olympiahalle,2016-08-16,2016-08-20,Beele,Yataco
-23,Epic Show,Arena TSB Bank,2018-05-06,2018-05-06,The Martinez Brothers,Queenstown Event Company
-24,Get Jacked,Carrer Baix Vinalopo,2021-02-14,2021-02-14,Afrojack,Producciones Baltimore
-25,DJs Apoyando a Chile,Teatro Teletón,2016-12-11,2016-11-15,Afrojack,Andeschimp spa
-26,Disney Concert,Estadio Unico Diego Armando Maradona,2016-03-15,2016-03-18,Jonas Brothers,ATOMIC FILMS
-27,Voyage,Studio The Venue,2020-05-29,2020-05-31,ABBA,Leading Event Agency
-28,AgendaMusic,Sala La Rivera,2018-06-20,2018-06-22,Farruko,LetsGo Company
-29,One Night Only,Movistar Arena,2019-04-05,2019-04-05,Bee Gees,G & t business group spa
-30,DISCOTEKA,Mercedes-Benz Arena,2016-10-04,2016-10-04,Lola Indigo,Bierlinerin
-31,Niño Blessi,Bikini Barcelona,2020-04-19,2020-04-19,DrefQuila,Live Nation
-32,Rio Concert,Vivo Rio,2016-02-26,2016-02-29,Anuel AA,Agencia 360
-33,Bangerz,Don Haskins Center,2018-12-08,2018-12-08,Miley Cyrus,Hartmann Studios
-34,La Criminal,Club Subterraneo,2019-11-06,2019-11-06,Natti Natasha,Glovox producciones limitada
-35,Mami Tour,Columbianhalle,2022-12-19,2022-12-19,Paloma Mami,Nachhaltige Events
-36,Map of the Soul,Shubert Theatre,2020-06-21,2020-06-23,BTS,The Imagos
-37,Twelve Carat Tour,Teatro Mayor,2022-05-29,2022-05-29,Post Malone,Tyg Eventos y Producciones
-38,Rio Concert,Vivo Rio,2016-02-26,2016-02-29,Justin Bieber,Agencia 360
-39,A7S Show,Carrer Baix Vinalopo,2019-01-06,2019-01-06,A7S,Live Nation
-40,Nobody like you,Palau Sant Jordi,2022-07-26,2022-07-26,Nicki Nicole,Live Nation
-41,BZRP Tour,Pabellon Max Schmeling,2020-05-09,2020-05-09,Paulo Londra,Nachhaltige Events
-42,How do you sleep,Teatro Municipal de Santiago,2022-09-14,2022-09-14,Sam Smith,Lotus producciones limitada
-43,Lotto,Estadio Nacional,2021-10-10,2021-10-10,EXO,Tolten eventos
-44,Phoenix Show,Espacio Unimed,2016-01-08,2016-01-08,Rita Ora,Somosfk
-45,Myrad,Teatro Municipal de Santiago,2016-05-03,2016-05-03,Nicky Romero,Universal circus
-46,Sub Focus,Moon Valencia,2016-02-15,2016-02-20,Coldplay,Ibolele Producciones
-47,"Young, Dumb and Broke",Teatro Municipal de Santiago,2022-09-16,2022-09-16,Khalid,G & t business group spa
-48,S.U.N.O,The Anthem,2016-06-16,2016-06-16,Pablo Chill-E,Los Angeles AV Production
-49,EQILIBRIO,Festhalle,2021-08-14,2021-08-14,Polima Westcoast,Europages
-50,DJ Snake,Espacio Unimed,2016-02-15,2016-02-15,DJ Snake,Brasil Stands
-51,The After Hours,WIZink Center,2021-11-04,2021-11-04,The Weeknd,Planet Events
-52,Sin Despertar,Warehouse Live,2020-02-26,2020-02-26,Kudai,Hartmann Studios
-53,El negrito ojos claros,Hipodromo de Palermo,2017-08-24,2017-08-24,Ozuna,FEG ENTRETENIMIENTOS
-54,Papi Juancho,Cirque Royal,2021-07-16,2021-07-16,Maluma,Expat
-55,Sueño Stereo,Shubert Theatre,2020-08-02,2020-08-02,Soda Stereo,Eveerlast Productions INC.
-56,One Vision of Queen,Teatro Gran Rex,2020-07-24,2020-07-27,Queen,FMG PRODUCCIONES
-57,Perfect All Experimenters,Aotea Centre,2016-07-24,2016-07-24,Anitta,Event Management NZ
-58,The Joshua Tree,Luna Park,2020-02-27,2020-02-27,U2,COMPAÑÍA ARGENTINA DE SUEÑOS
-59,Mami Tour,Thunder Bay,2022-07-09,2022-07-09,Paloma Mami,EventsEye
-60,BZRP Tour,Pabellon Max Schmeling,2020-05-09,2020-05-09,Snow,Nachhaltige Events
-61,Concha Acústica UC 2022,Club Subterraneo,2022-10-24,2022-10-28,Jordan 23,Eventos mudness limitada
-62,The E.N.D World,Air Canada Centre,2021-05-12,2021-05-12,Black Eyed Peas,Eventos Toronto Shaddai
-63,Step by Step,City Hall el Rodeo,2016-03-28,2016-03-28,New Kids on the Block,Onlygroundmusic
-64,BZRP Tour,Pabellon Max Schmeling,2020-05-09,2020-05-09,Nicki Nicole,Nachhaltige Events
-65,LOS APARATOS,Tarpeian Precinct Lawn,2018-08-12,2018-08-12,Trueno,YouTOOProject
-66,Mil Rosas,Leons Centre,2018-01-18,2018-01-18,La Oreja de Van Gogh,Eventos Toronto Shaddai
-67,La leyenda,UBS Arena,2018-03-02,2018-03-02,Gustavo Cerati,Event Production Company
-68,Caminemos de la Mano,Quinta Vergara,2016-07-21,2016-07-21,Pailita,Casa eventos
-69,Anastasia,Pabellon Fuente de San Luis,2020-07-04,2020-07-04,Cami,Planet Events
-70,Desesperados,Arena TSB Bank,2019-09-24,2019-09-24,Rauw Alejando,Lets Dance
-71,Real Scene,Phoenix Concert Theatre,2021-09-11,2021-09-11,Big Bang,Yataco
-72,Entre Nosotros,Sala La Rivera,2020-12-21,2020-12-21,Tiago PZK,Live Nation
-73,Me Veras Volver,Palau Sant Jordi,2017-09-06,2017-11-06,Soda Stereo,Live Nation
-74,DJs Apoyando a Chile,Teatro Teletón,2016-12-11,2016-11-15,Hardwell,Andeschimp spa
-75,Fine Line,Estadio Rose Bowl,2022-08-11,2022-10-11,Harry Styles,Live Nation
-76,Disney Concert,Estadio Unico Diego Armando Maradona,2016-03-15,2016-03-18,Justin Bieber,ATOMIC FILMS
-77,The After Hours,Teatro Caupolicán,2018-05-08,2018-05-08,The Weeknd,Apparcel producciones limitada
-78,Heartbreak Weather,SALA SANTANA,2020-06-16,2020-06-16,Niall Horan,LetsGo Company
-79,Oh How,La Madeleine,2021-09-10,2021-09-10,Eagles,Xceed
-80,El amor despues del amor,Aotea Centre,2021-01-05,2021-02-05,Fito Paez,Lets Dance
-81,The After Hours,Teatro Coliseo,2018-04-20,2018-04-20,The Weeknd,Producciones oz limitada
-82,Flicker,SALA SANTANA,2021-04-18,2021-04-18,Niall Horan,IndyRock
-83,Show Forest,Radio City Music Hall,2016-04-11,2016-06-11,5 Seconds of Summer,Hartmann Studios
-84,DISCOTEKA,El Huevo,2017-09-30,2017-09-30,Lola Indigo,Global producciones spa
-85,1989,Jeunesse Arena,2018-07-13,2018-07-13,Taylor Swift,Somosfk
-86,Beto Cuevas,Kursaal Oostende,2018-04-12,2018-04-12,Beto Cuevas,Litmind
-87,Perfect Specacular Paradise,Sala Apolo,2016-02-26,2016-02-26,Alan Walker,Live Nation
-88,Ko Ko Pop,Estadio Nacional,2020-01-14,2020-01-14,EXO,Ramasso Productora
-89,WAR,Shubert Theatre,2021-05-10,2021-05-10,U2,Live Nation
-90,Shivers,Lanxess Arena,2018-03-01,2018-03-01,Ed Sheeran,CK Events Germany
-91,Perfect Specacular Paradise,Estadio Monumental,2016-06-16,2016-06-16,Alan Walker,Vision world producciones limitada
-92,Twelve Carat Tour,Sala La Rivera,2022-07-08,2022-07-08,Post Malone,Live Nation
-93,Mystere,LAUT,2019-08-10,2019-11-10,Cirque du Solei,IndyRock
-94,Rio Concert,Vivo Rio,2016-02-26,2016-02-29,Drake,Agencia 360
-95,Dont start now,Teatro Gran Rex,2017-02-02,2017-02-02,Dua Lipa,FMG PRODUCCIONES
-96,Material Girl,Estadio ANZ,2016-06-21,2016-06-21,Madonna,Event Hire Sydney
-97,Hips dont lie,Espacio Riesco,2017-12-22,2017-12-22,Shakira,Productora energy in motion limitada
-98,QueenB,Club Providencia,2019-08-06,2019-08-06,Beyonce,Casa eventos
-99,Plastic Hearts,UBS Arena,2021-05-23,2021-05-23,Miley Cyrus,Los Angeles AV Production
-100,Bang Bang,Warehouse Live,2021-02-03,2021-02-03,Jessie J,Los Angeles AV Production
-101,Lively And Supreme,Mercedes-Benz Arena,2020-09-11,2020-09-11,Armin Van Buuren,Eventveranstalter Hamburg
-102,Lali Esposito: The Show,Days Bay Pavilion,2021-03-03,2021-03-03,Lali Esposito,Leading Event Agency
-103,S.U.N.O,Cupula Multiespacio,2018-08-21,2018-08-21,Pablo Chill-E,DG Medios y espectaculos s.a.
-104,El negrito ojos claros,Teatro Municipal de Valparaiso,2018-07-07,2018-07-07,Ozuna,Producciones musicales massivo reccords limitada
-105,Salimo de Noche,Palacio de las Artes,2019-02-28,2019-02-28,Tiago PZK,LetsGo Company
-106,Beyond Wonderland,Gran Arena Monticello,2016-06-29,2016-06-29,Marshmello,BDD Producciones
-107,Show Forest,Radio City Music Hall,2016-04-11,2016-06-11,One Direction,Hartmann Studios
-108,The Real Slim Shady,Club Subterraneo,2020-10-01,2020-12-01,Eminem,DG Medios y espectaculos s.a.
-109,Show Forest,Radio City Music Hall,2016-04-11,2016-06-11,Big Time Rush,Hartmann Studios
-110,Revelation Magic Everything,Trafalgar Centre Paru,2022-01-04,2022-01-04,Afrojack,Queenstown Event Company
-111,Passionfruit,Club Blondie,2017-05-18,2017-05-18,Drake,Producciones y eventos empire digital limitada
-112,Heather,Teatro Teletón,2021-01-18,2021-01-18,Conan Gray,Eventos luis maturana ortega e.i.r.l
-113,EteSesh,FirstOntario Centre,2019-07-07,2019-07-07,Sech,Canada Eventos
-114,AgendaMusic,Sala La Rivera,2018-06-20,2018-06-22,Karol G,LetsGo Company
-115,Concha Acústica UC 2022,Club Subterraneo,2022-10-24,2022-10-28,Pailita,Eventos mudness limitada
-116,Disney Concert,Estadio Unico Diego Armando Maradona,2016-03-15,2016-03-18,Miley Cyrus,ATOMIC FILMS
-117,Ye,El Huevo,2022-11-08,2022-11-08,Kanye West,G & t business group spa
-118,Super Freaky Girl,Casino de Viña del Mar,2022-01-01,2022-01-01,Nicki Minaj,Glovox producciones limitada
-119,Concha Acústica UC 2022,Club Subterraneo,2022-10-24,2022-10-28,Pablo Chill-E,Eventos mudness limitada
-120,DISCOTEKA,Independance Club,2021-02-28,2021-02-28,Lola Indigo,IndyRock
-121,SongKick,SOF Q8 Toinha Brasil,2020-08-09,2020-08-09,Skrillex,BRL Eventos
-122,Ultra Solo,Niceto Club,2021-11-12,2021-11-12,Pailita,FMG PRODUCCIONES
-123,BZRP Tour,Pabellon Max Schmeling,2020-05-09,2020-05-09,Bizarrap,Nachhaltige Events
-124,Schulz Forever,Arena Ludwingsburg,2021-02-22,2021-02-22,Robin Schulz,B+D Events
-125,CLARITY,Estadio Nacional,2018-08-17,2018-08-19,Diplo,DG Medios y espectaculos s.a.
-126,Born this way,Shubert Theatre,2017-05-08,2017-05-08,Lady Gaga,Event Production Company
-127,Rio Concert,Vivo Rio,2016-02-26,2016-02-29,Bad Bunny,Agencia 360
-128,Dia Cero,Forest National,2018-11-14,2018-11-14,La Ley,Global Journey
-129,Papi Juancho,Estadio Rose Bowl,2022-07-17,2022-07-17,Maluma,Horwath Productions INC.
-130,La Ultima Vuelta,Club RBX,2016-12-11,2016-11-14,Daddy Yankee,Street machine producciones s.a.
-131,Le Reve,The Fillmore Philadelphia,2017-03-28,2017-03-31,Cirque du Solei,Live Nation
-132,A7S Show,Barclaycard Arena,2017-12-19,2017-12-19,A7S,B+D Events
-133,Concha Acústica UC 2022,Club Subterraneo,2022-10-24,2022-10-28,Paloma Mami,Eventos mudness limitada
-134,Umbrella Concert,Movistar Arena,2019-08-07,2019-08-07,Rihanna,ATOMIC FILMS
-135,The Encounter,Crypto.com Arena,2022-04-17,2022-04-17,One Direction,Revelation
-136,El Duko2.0,Thunder Bay,2020-07-29,2020-07-29,Duki,EventsEye
-137,KAWAII,SALA SANTANA,2022-02-06,2022-02-06,Polima Westcoast,Planet Events
-138,Rio Concert,Vivo Rio,2016-02-26,2016-02-29,Taylor Swift,Agencia 360
-139,Paramore,Niceto Club,2017-01-11,2017-01-11,Paramore,FEG ENTRETENIMIENTOS
-140,Tomorrow Never Knows,Studio The Venue,2020-03-07,2020-03-07,The Beatles,Ethno Nueva Zelanda
-141,Telepatia,Raley Field,2017-03-02,2017-03-02,Nathy Peluso,Eveerlast Productions INC.
-142,PlanAhead,Luna Park,2021-05-02,2021-05-02,Alesso,ESTADIUM LUNA PARK
-143,Big Time,"Stage Live, Kalea",2016-04-07,2016-04-07,Big Time Rush,Planet Events
-144,MMM Bop,Wilterm Theatre,2017-08-16,2017-08-16,Hansen,Live Nation
-145,Anastasia,Teatro Cariola,2019-07-19,2019-07-19,Cami,G & t business group spa
-146,Five Day,Arena TSB Bank,2021-07-08,2021-07-08,Pearl Jam,Event Management NZ
-147,Fruta y te,Raley Field,2017-04-17,2017-04-17,Gepe,The Imagos
-148,Dolby Live,Palais 12,2016-06-07,2016-06-07,Aerosmith,Top Bruselas
-149,Map of the Soul,Teatro Municipal de Santiago,2020-12-05,2020-05-15,BTS,Capsule producciones spa
-150,Born this way,Irving Plaza,2020-09-12,2020-09-12,Lady Gaga,CSI DMC
-151,Passionfruit,Columbianhalle,2020-10-10,2020-10-10,Drake,Europages
-152,WAP,Madison Square Garden,2018-12-23,2018-12-23,Cardi B,The Imagos
-153,Tusa,Metropolitano Rosario,2020-11-07,2020-11-07,Nicki Minaj,ESPECTACULOS GALLO
-154,Frozen,Teatro Colon,2019-12-09,2019-12-09,Madonna,FMG PRODUCCIONES
-155,El Alfa Tour,The Brooklyn Monarch,2019-08-25,2019-08-25,El Alfa,Event Production Company
-156,Reputation,Raley Field,2016-03-30,2016-03-31,Taylor Swift,Live Nation
-157,MJ Tribute,Warehouse Live,2016-01-12,2016-03-12,Michael Jackson,AEG
-158,FULL PIOLI,Estadio Rose Bowl,2017-07-13,2017-07-13,Pablo Chill-E,Revelation
-159,Fourplan Event,Olympiahalle,2016-08-16,2016-08-20,Cris MJ,Yataco
-160,One Night Only,WIZink Center,2017-09-26,2017-09-26,Bee Gees,Producciones Baltimore
-161,Same old love,Days Bay Pavilion,2020-03-28,2020-03-28,Selena Gomez,manatua.nz
-162,Convencete,Thunder Bay,2020-02-16,2020-02-16,Princesa Alba,EventsEye
-163,Bigger than me,Metropol,2020-06-01,2020-06-01,Louis Tomlinson,Europages
-164,Alpha Eventalist,Estadio Bicentario de La Florida,2021-10-15,2021-10-15,Duncan Laurence,DG Medios y espectaculos s.a.
-165,Young Flex,Estadio de Futbol Atanasio Girardot,2018-09-04,2018-09-04,Khea,Rocko Saroni Eventos
-166,Nicky Jam Show,Radio City Music Hall,2019-08-28,2019-08-28,Nicky Jam,Live Nation
-167,Big E Party Moment,Air Canada Centre,2020-10-18,2020-10-18,New Kids on the Block,Eventos Toronto Shaddai
-168,Natural,Gran Arena Monticello,2016-05-07,2016-05-07,Selena Gomez,Dreams - eventos
-169,Fourplan Mania,Kursaal Oostende,2019-04-29,2019-04-29,Duncan Laurence,Rove.me
-170,Get Jacked,Arena TSB Bank,2017-01-16,2017-01-16,Afrojack,Event Management NZ
-171,JLo,Club Subterraneo,2018-02-18,2018-02-18,Jennifer Lopez,DG Medios y espectaculos s.a.
-172,CLARITY,Estadio Nacional,2018-08-17,2018-08-19,Robin Schulz,DG Medios y espectaculos s.a.
-173,MMM Bop,HISTORY,2022-05-14,2022-05-14,Hansen,Expat
-174,Eventage Feasts,Luna Park,2016-06-09,2016-06-09,Doja Cat,ESTADIUM LUNA PARK
-175,Mil Rosas,City Hall el Rodeo,2016-03-03,2016-03-03,La Oreja de Van Gogh,Animationphoenix
-176,I Used to Think I could Fly,Salitre Magico,2019-10-23,2019-10-23,Tate McRae,Sinstress Eventos
-177,Que oso,Youtube Theatre,2018-05-22,2018-05-22,Snow,Los Angeles AV Production
-178,Telepatia,Club Chocolate,2022-04-06,2022-04-06,Nathy Peluso,Eventos luis maturana ortega e.i.r.l
-179,Everybody,Gran Arena Monticello,2016-10-21,2016-10-21,Madonna,DG Medios y espectaculos s.a.
-180,Shape of you,Aussie Stadium,2016-04-20,2016-04-20,Ed Sheeran,Event Hire Sydney
-181,CARAVANA,Carioca Club,2018-07-29,2018-07-29,Wos,BRL Eventos
-182,Papi Juancho,Teatro Municipal de Santiago,2020-09-18,2020-09-18,Maluma,DG Medios y espectaculos s.a.
-183,AgendaMusic,Sala La Rivera,2018-06-20,2018-06-22,Becky G,LetsGo Company
-184,Ko Ko Pop,Palau Sant Jordi,2019-04-20,2019-04-20,EXO,LetsGo Company
-185,Golden,La Marina de Valencia,2022-03-23,2022-03-26,Harry Styles,LetsGo Company
-186,Bigger than me,Teatro Colon,2021-05-29,2021-05-29,Louis Tomlinson,PROSPERO PRODUCCIONES
-187,Roads Time,Columbianhalle,2020-02-06,2020-02-06,Daft Punk,Europages
-188,"Young, Dumb and Broke",Trafalgar Centre Paru,2020-06-09,2020-06-09,Khalid,Event Management NZ
-189,RBD the comeback,Teatro Municipal de Valparaiso,2020-02-17,2020-02-17,RBD,Productora de eventos moviefan limitada
-190,Talking to the moon,Aotea Centre,2021-02-24,2021-02-24,Bruno Mars,manatua.nz
-191,Disney Concert,Estadio Unico Diego Armando Maradona,2016-03-15,2016-03-18,Demi Lovato,ATOMIC FILMS
-192,TJB,Dodger Stadium,2022-06-25,2022-06-25,Jonas Brothers,Hartmann Studios
-193,DJs Apoyando a Chile,Teatro Teletón,2016-12-11,2016-11-15,David Guetta,Andeschimp spa
-194,Schulz Forever,La Marina de Valencia,2022-03-22,2022-03-22,Robin Schulz,Live Nation
-195,Concha Acústica UC 2022,Club Subterraneo,2022-10-24,2022-10-28,Marcianeke,Eventos mudness limitada
-196,Younger now,HISTORY,2017-03-27,2017-03-27,Miley Cyrus,EventsEye
-197,Treat you better,Moon Valencia,2019-09-30,2019-09-30,Shawn Mendes,LetsGo Company
-198,Habana,Velodromo de Berlin,2018-10-09,2018-10-09,Camila Cabello,Litmind
-199,Bigger than me,Estadio ANZ,2019-07-28,2019-07-28,Louis Tomlinson,CMG Audio Visual
-200,I Aint Worried,Estadio Monumental,2019-12-01,2019-12-01,One Republic,K PRODUCCIONES S.A.
-201,Disney Concert,Estadio Unico Diego Armando Maradona,2016-03-15,2016-03-18,Selena Gomez,ATOMIC FILMS
-202,Kill my mind,La Madeleine,2017-01-28,2017-01-28,Louis Tomlinson,Xceed
-203,Paramore,Powerstation 33,2016-05-30,2016-05-30,Paramore,manatua.nz
-204,Best Part,Chango Club,2018-08-11,2018-08-11,Daniel Caesar,Planet Events
-205,Maria Becerra,Teatro Municipal de Santiago,2022-06-10,2022-06-10,Maria Becerra,Ais producciones
-206,Como si no importara,Arena Ludwingsburg,2021-01-23,2021-01-23,Duki,fullevent.de
-207,ShoNuf Lucky,Opera de Sidney,2019-02-10,2019-02-10,Hardwell,Sydney WorldPride
-208,El Duko,Parque Bicentenario Cerrillos,2018-07-12,2018-07-12,Duki,Andres gardeweg producciones e.i.r.l
-209,How do you sleep,Teatro Municipal de Santiago,2021-09-25,2021-09-25,San Smith,Time for fun (t4f)
-210,Lively And Supreme,Quinta Vergara,2018-08-30,2018-08-30,Armin Van Buuren,G & t business group spa
-211,Fourplan Event,Olympiahalle,2016-08-16,2016-08-20,Luar La L,Yataco
-212,El Ultimo Concierto,Gran Arena Monticello,2016-07-19,2016-07-22,Soda Stereo,Sony music entertainment chile s.a.
-213,Gowlding,Salitre Magico,2022-12-17,2022-12-17,Ellie Gowlding,Audio Level Eventos
-214,Tren al Sur,Estadio Bicentario de La Florida,2018-11-27,2018-11-27,Los Prisioneros,Yellow House
-215,RUNAWAY,Estadio ANZ,2021-09-07,2021-12-07,Bon Jovi,Expat
-216,CARAVANA,Don Haskins Center,2019-01-05,2019-01-05,Wos,Event Production Company
-217,Todo Cambia,Fundo Colmito,2021-12-15,2021-12-15,Mercedes Sosa,Comercial caupolican limitada
-218,One Night Only,Bilbao Arena,2021-08-10,2021-08-10,Bee Gees,Ibolele Producciones
-219,Watch out for this,Sala But,2019-12-17,2019-12-17,Major Lazer,Planet Events
-220,Seize The Day,Thunder Bay,2022-09-08,2022-09-08,My Chemical Romance,EventsEye
-221,Dangerous Woman,Days Bay Pavilion,2018-02-08,2018-02-08,Ariana Grande,Ethno Nueva Zelanda
-222,Fourplan Event,Olympiahalle,2016-08-16,2016-08-20,Tini Stoessel,Yataco
-223,I Aint Worried,Luna Park,2021-05-15,2021-05-15,One Republic,ESTADIUM LUNA PARK
-224,La Ultima Mision,Estadio Rose Bowl,2017-08-12,2017-08-12,Wisin & Yandel,CSI DMC
-225,Drivers License Tour,ZAG Arena,2016-02-17,2016-02-17,Olivia Rodrigo,MGC
-226,Heather,Palau Sant Jordi,2018-03-01,2018-03-01,Conan Gray,Live Nation
-227,Dangerous Woman,Niceto Club,2021-07-22,2021-07-22,Ariana Grande,Ramasso Productora
-228,Gowlding,Sala Apolo,2019-07-03,2019-07-03,Ellie Gowlding,Live Nation
-229,Rio Concert,Vivo Rio,2016-02-26,2016-02-29,Maria Becerra,Agencia 360
-230,Michael Jackson Tribute,Cupula Multiespacio,2017-11-13,2017-11-15,Michael Jackson,Time for fun (t4f)
-231,The Misery,Spark Arena,2020-10-27,2020-10-27,Imagine Dragons,Queenstown Event Company
-232,El J23,Canadian Tire Centre,2020-10-07,2020-10-07,Jordan 23,Mayam Producciones
+id_evento,id_evento2,nombre_evento,recinto,fecha_inicio,fecha_termino,productora,artista
+0,1,Rio Concert,Vivo Rio,2016-02-26,2016-02-29,Agencia 360,Francisca Valenzuela
+1,1,Rio Concert,Vivo Rio,2016-02-26,2016-02-29,Agencia 360,Anuel AA
+2,1,Rio Concert,Vivo Rio,2016-02-26,2016-02-29,Agencia 360,Justin Bieber
+3,1,Rio Concert,Vivo Rio,2016-02-26,2016-02-29,Agencia 360,Drake
+4,1,Rio Concert,Vivo Rio,2016-02-26,2016-02-29,Agencia 360,Bad Bunny
+5,1,Rio Concert,Vivo Rio,2016-02-26,2016-02-29,Agencia 360,Taylor Swift
+6,1,Rio Concert,Vivo Rio,2016-02-26,2016-02-29,Agencia 360,Maria Becerra
+7,2,Mil Rosas,Mercedes-Benz Arena,2022-11-29,2022-11-29,Eventveranstalter Hamburg,La Oreja de Van Gogh
+8,3,Bachata en vivo,Irving Plaza,2020-11-05,2020-11-05,The Imagos,Prince Royce
+9,4,Como si no importara,Arena Ludwingsburg,2021-01-23,2021-01-23,fullevent.de,Emilia
+10,4,Como si no importara,Arena Ludwingsburg,2021-01-23,2021-01-23,fullevent.de,Duki
+11,5,Epic Show,Freiheitshalle,2022-04-03,2022-04-03,B+D Events,The Martinez Brothers
+12,6,Niño Blessi,SOF Q8 Toinha Brasil,2019-09-08,2019-09-08,Urban Music,DrefQuila
+13,7,BZRP Tour,Pabellon Max Schmeling,2020-05-09,2020-05-09,Nachhaltige Events,Cazzu
+14,7,BZRP Tour,Pabellon Max Schmeling,2020-05-09,2020-05-09,Nachhaltige Events,Paulo Londra
+15,7,BZRP Tour,Pabellon Max Schmeling,2020-05-09,2020-05-09,Nachhaltige Events,Snow
+16,7,BZRP Tour,Pabellon Max Schmeling,2020-05-09,2020-05-09,Nachhaltige Events,Nicki Nicole
+17,7,BZRP Tour,Pabellon Max Schmeling,2020-05-09,2020-05-09,Nachhaltige Events,Bizarrap
+18,8,Super Bass Tour,Warehouse Live,2022-04-02,2022-04-02,The Imagos,Nicki Minaj
+19,9,Quedate,Mercedes-Benz Arena,2022-01-19,2022-01-19,Eventveranstalter Hamburg,Quevedo
+20,10,La Gasolina,Estadio Santa Laura,2016-12-16,2016-12-18,Global producciones spa,Daddy Yankee
+21,11,R3hab live show,Velodromo de Berlin,2022-09-19,2022-09-19,KahnEvents GmbH,R3hab
+22,12,CLARITY,Estadio Nacional,2018-08-17,2018-08-19,DG Medios y espectaculos s.a.,Kesha
+23,12,CLARITY,Estadio Nacional,2018-08-17,2018-08-19,DG Medios y espectaculos s.a.,Zedd
+24,12,CLARITY,Estadio Nacional,2018-08-17,2018-08-19,DG Medios y espectaculos s.a.,Diplo
+25,12,CLARITY,Estadio Nacional,2018-08-17,2018-08-19,DG Medios y espectaculos s.a.,Robin Schulz
+26,13,Cerca de ti,Teatro Cariola,2022-01-28,2022-01-28,Club providencia,Tiago PZK
+27,14,Say you wont let go,Antel Arena,2022-02-08,2022-02-08,PROSPERO PRODUCCIONES,James Arthur
+28,15,Twelve Carat Tour,The Anthem,2018-01-29,2018-01-29,AEG,Post Malone
+29,16,Belinda Comeback,E-Werk,2016-01-30,2016-01-30,Europages,Belinda
+30,17,Anastasia,Salitre Magico,2019-12-07,2019-12-07,Ye & Ca Producciones,Cami
+31,18,AgendaMusic,Sala La Rivera,2018-06-20,2018-06-22,LetsGo Company,Ozuna
+32,18,AgendaMusic,Sala La Rivera,2018-06-20,2018-06-22,LetsGo Company,Farruko
+33,18,AgendaMusic,Sala La Rivera,2018-06-20,2018-06-22,LetsGo Company,Karol G
+34,18,AgendaMusic,Sala La Rivera,2018-06-20,2018-06-22,LetsGo Company,Becky G
+35,19,Disney Concert,Estadio Unico Diego Armando Maradona,2016-03-15,2016-03-18,ATOMIC FILMS,Olivia Rodrigo
+36,19,Disney Concert,Estadio Unico Diego Armando Maradona,2016-03-15,2016-03-18,ATOMIC FILMS,Jonas Brothers
+37,19,Disney Concert,Estadio Unico Diego Armando Maradona,2016-03-15,2016-03-18,ATOMIC FILMS,Justin Bieber
+38,19,Disney Concert,Estadio Unico Diego Armando Maradona,2016-03-15,2016-03-18,ATOMIC FILMS,Miley Cyrus
+39,19,Disney Concert,Estadio Unico Diego Armando Maradona,2016-03-15,2016-03-18,ATOMIC FILMS,Demi Lovato
+40,19,Disney Concert,Estadio Unico Diego Armando Maradona,2016-03-15,2016-03-18,ATOMIC FILMS,Selena Gomez
+41,20,WAP,E-Werk,2016-03-06,2016-03-06,MGC,Cardi B
+42,21,Passionfruit,Explanada Ciudad Empresarial,2020-04-13,2020-04-13,Reverb - productora de eventos,Drake
+43,22,Fourplan Event,Olympiahalle,2016-08-16,2016-08-20,Yataco,Beele
+44,22,Fourplan Event,Olympiahalle,2016-08-16,2016-08-20,Yataco,Cris MJ
+45,22,Fourplan Event,Olympiahalle,2016-08-16,2016-08-20,Yataco,Luar La L
+46,22,Fourplan Event,Olympiahalle,2016-08-16,2016-08-20,Yataco,Tini Stoessel
+47,23,Epic Show,Arena TSB Bank,2018-05-06,2018-05-06,Queenstown Event Company,The Martinez Brothers
+48,24,Get Jacked,Carrer Baix Vinalopo,2021-02-14,2021-02-14,Producciones Baltimore,Afrojack
+49,25,DJs Apoyando a Chile,Teatro Teletón,2016-12-11,2016-11-15,Andeschimp spa,Afrojack
+50,25,DJs Apoyando a Chile,Teatro Teletón,2016-12-11,2016-11-15,Andeschimp spa,Hardwell
+51,25,DJs Apoyando a Chile,Teatro Teletón,2016-12-11,2016-11-15,Andeschimp spa,David Guetta
+52,26,Voyage,Studio The Venue,2020-05-29,2020-05-31,Leading Event Agency,ABBA
+53,27,One Night Only,Movistar Arena,2019-04-05,2019-04-05,G & t business group spa,Bee Gees
+54,28,DISCOTEKA,Mercedes-Benz Arena,2016-10-04,2016-10-04,Bierlinerin,Lola Indigo
+55,29,Niño Blessi,Bikini Barcelona,2020-04-19,2020-04-19,Live Nation,DrefQuila
+56,30,Bangerz,Don Haskins Center,2018-12-08,2018-12-08,Hartmann Studios,Miley Cyrus
+57,31,La Criminal,Club Subterraneo,2019-11-06,2019-11-06,Glovox producciones limitada,Natti Natasha
+58,32,Mami Tour,Columbianhalle,2022-12-19,2022-12-19,Nachhaltige Events,Paloma Mami
+59,33,Map of the Soul,Shubert Theatre,2020-06-21,2020-06-23,The Imagos,BTS
+60,34,Twelve Carat Tour,Teatro Mayor,2022-05-29,2022-05-29,Tyg Eventos y Producciones,Post Malone
+61,35,A7S Show,Carrer Baix Vinalopo,2019-01-06,2019-01-06,Live Nation,A7S
+62,36,Nobody like you,Palau Sant Jordi,2022-07-26,2022-07-26,Live Nation,Nicki Nicole
+63,37,How do you sleep,Teatro Municipal de Santiago,2022-09-14,2022-09-14,Lotus producciones limitada,Sam Smith
+64,38,Lotto,Estadio Nacional,2021-10-10,2021-10-10,Tolten eventos,EXO
+65,39,Phoenix Show,Espacio Unimed,2016-01-08,2016-01-08,Somosfk,Rita Ora
+66,40,Myrad,Teatro Municipal de Santiago,2016-05-03,2016-05-03,Universal circus,Nicky Romero
+67,41,Sub Focus,Moon Valencia,2016-02-15,2016-02-20,Ibolele Producciones,Coldplay
+68,42,"Young, Dumb and Broke",Teatro Municipal de Santiago,2022-09-16,2022-09-16,G & t business group spa,Khalid
+69,43,S.U.N.O,The Anthem,2016-06-16,2016-06-16,Los Angeles AV Production,Pablo Chill-E
+70,44,EQILIBRIO,Festhalle,2021-08-14,2021-08-14,Europages,Polima Westcoast
+71,45,DJ Snake,Espacio Unimed,2016-02-15,2016-02-15,Brasil Stands,DJ Snake
+72,46,The After Hours,WIZink Center,2021-11-04,2021-11-04,Planet Events,The Weeknd
+73,47,Sin Despertar,Warehouse Live,2020-02-26,2020-02-26,Hartmann Studios,Kudai
+74,48,El negrito ojos claros,Hipodromo de Palermo,2017-08-24,2017-08-24,FEG ENTRETENIMIENTOS,Ozuna
+75,49,Papi Juancho,Cirque Royal,2021-07-16,2021-07-16,Expat,Maluma
+76,50,Sueño Stereo,Shubert Theatre,2020-08-02,2020-08-02,Eveerlast Productions INC.,Soda Stereo
+77,51,One Vision of Queen,Teatro Gran Rex,2020-07-24,2020-07-27,FMG PRODUCCIONES,Queen
+78,52,Perfect All Experimenters,Aotea Centre,2016-07-24,2016-07-24,Event Management NZ,Anitta
+79,53,The Joshua Tree,Luna Park,2020-02-27,2020-02-27,COMPAÑÍA ARGENTINA DE SUEÑOS,U2
+80,54,Mami Tour,Thunder Bay,2022-07-09,2022-07-09,EventsEye,Paloma Mami
+81,55,Concha Acústica UC 2022,Club Subterraneo,2022-10-24,2022-10-28,Eventos mudness limitada,Jordan 23
+82,55,Concha Acústica UC 2022,Club Subterraneo,2022-10-24,2022-10-28,Eventos mudness limitada,Pailita
+83,55,Concha Acústica UC 2022,Club Subterraneo,2022-10-24,2022-10-28,Eventos mudness limitada,Pablo Chill-E
+84,55,Concha Acústica UC 2022,Club Subterraneo,2022-10-24,2022-10-28,Eventos mudness limitada,Paloma Mami
+85,55,Concha Acústica UC 2022,Club Subterraneo,2022-10-24,2022-10-28,Eventos mudness limitada,Marcianeke
+86,56,The E.N.D World,Air Canada Centre,2021-05-12,2021-05-12,Eventos Toronto Shaddai,Black Eyed Peas
+87,57,Step by Step,City Hall el Rodeo,2016-03-28,2016-03-28,Onlygroundmusic,New Kids on the Block
+88,58,LOS APARATOS,Tarpeian Precinct Lawn,2018-08-12,2018-08-12,YouTOOProject,Trueno
+89,59,Mil Rosas,Leons Centre,2018-01-18,2018-01-18,Eventos Toronto Shaddai,La Oreja de Van Gogh
+90,60,La leyenda,UBS Arena,2018-03-02,2018-03-02,Event Production Company,Gustavo Cerati
+91,61,Caminemos de la Mano,Quinta Vergara,2016-07-21,2016-07-21,Casa eventos,Pailita
+92,62,Anastasia,Pabellon Fuente de San Luis,2020-07-04,2020-07-04,Planet Events,Cami
+93,63,Desesperados,Arena TSB Bank,2019-09-24,2019-09-24,Lets Dance,Rauw Alejando
+94,64,Real Scene,Phoenix Concert Theatre,2021-09-11,2021-09-11,Yataco,Big Bang
+95,65,Entre Nosotros,Sala La Rivera,2020-12-21,2020-12-21,Live Nation,Tiago PZK
+96,66,Me Veras Volver,Palau Sant Jordi,2017-09-06,2017-11-06,Live Nation,Soda Stereo
+97,67,Fine Line,Estadio Rose Bowl,2022-08-11,2022-10-11,Live Nation,Harry Styles
+98,68,The After Hours,Teatro Caupolicán,2018-05-08,2018-05-08,Apparcel producciones limitada,The Weeknd
+99,69,Heartbreak Weather,SALA SANTANA,2020-06-16,2020-06-16,LetsGo Company,Niall Horan
+100,70,Oh How,La Madeleine,2021-09-10,2021-09-10,Xceed,Eagles
+101,71,El amor despues del amor,Aotea Centre,2021-01-05,2021-02-05,Lets Dance,Fito Paez
+102,72,The After Hours,Teatro Coliseo,2018-04-20,2018-04-20,Producciones oz limitada,The Weeknd
+103,73,Flicker,SALA SANTANA,2021-04-18,2021-04-18,IndyRock,Niall Horan
+104,74,Show Forest,Radio City Music Hall,2016-04-11,2016-06-11,Hartmann Studios,5 Seconds of Summer
+105,74,Show Forest,Radio City Music Hall,2016-04-11,2016-06-11,Hartmann Studios,One Direction
+106,74,Show Forest,Radio City Music Hall,2016-04-11,2016-06-11,Hartmann Studios,Big Time Rush
+107,75,DISCOTEKA,El Huevo,2017-09-30,2017-09-30,Global producciones spa,Lola Indigo
+108,76,1989,Jeunesse Arena,2018-07-13,2018-07-13,Somosfk,Taylor Swift
+109,77,Beto Cuevas,Kursaal Oostende,2018-04-12,2018-04-12,Litmind,Beto Cuevas
+110,78,Perfect Specacular Paradise,Sala Apolo,2016-02-26,2016-02-26,Live Nation,Alan Walker
+111,79,Ko Ko Pop,Estadio Nacional,2020-01-14,2020-01-14,Ramasso Productora,EXO
+112,80,WAR,Shubert Theatre,2021-05-10,2021-05-10,Live Nation,U2
+113,81,Shivers,Lanxess Arena,2018-03-01,2018-03-01,CK Events Germany,Ed Sheeran
+114,82,Perfect Specacular Paradise,Estadio Monumental,2016-06-16,2016-06-16,Vision world producciones limitada,Alan Walker
+115,83,Twelve Carat Tour,Sala La Rivera,2022-07-08,2022-07-08,Live Nation,Post Malone
+116,84,Mystere,LAUT,2019-08-10,2019-11-10,IndyRock,Cirque du Solei
+117,85,Dont start now,Teatro Gran Rex,2017-02-02,2017-02-02,FMG PRODUCCIONES,Dua Lipa
+118,86,Material Girl,Estadio ANZ,2016-06-21,2016-06-21,Event Hire Sydney,Madonna
+119,87,Hips dont lie,Espacio Riesco,2017-12-22,2017-12-22,Productora energy in motion limitada,Shakira
+120,88,QueenB,Club Providencia,2019-08-06,2019-08-06,Casa eventos,Beyonce
+121,89,Plastic Hearts,UBS Arena,2021-05-23,2021-05-23,Los Angeles AV Production,Miley Cyrus
+122,90,Bang Bang,Warehouse Live,2021-02-03,2021-02-03,Los Angeles AV Production,Jessie J
+123,91,Lively And Supreme,Mercedes-Benz Arena,2020-09-11,2020-09-11,Eventveranstalter Hamburg,Armin Van Buuren
+124,92,Lali Esposito: The Show,Days Bay Pavilion,2021-03-03,2021-03-03,Leading Event Agency,Lali Esposito
+125,93,S.U.N.O,Cupula Multiespacio,2018-08-21,2018-08-21,DG Medios y espectaculos s.a.,Pablo Chill-E
+126,94,El negrito ojos claros,Teatro Municipal de Valparaiso,2018-07-07,2018-07-07,Producciones musicales massivo reccords limitada,Ozuna
+127,95,Salimo de Noche,Palacio de las Artes,2019-02-28,2019-02-28,LetsGo Company,Tiago PZK
+128,96,Beyond Wonderland,Gran Arena Monticello,2016-06-29,2016-06-29,BDD Producciones,Marshmello
+129,97,The Real Slim Shady,Club Subterraneo,2020-10-01,2020-12-01,DG Medios y espectaculos s.a.,Eminem
+130,98,Revelation Magic Everything,Trafalgar Centre Paru,2022-01-04,2022-01-04,Queenstown Event Company,Afrojack
+131,99,Passionfruit,Club Blondie,2017-05-18,2017-05-18,Producciones y eventos empire digital limitada,Drake
+132,100,Heather,Teatro Teletón,2021-01-18,2021-01-18,Eventos luis maturana ortega e.i.r.l,Conan Gray
+133,101,EteSesh,FirstOntario Centre,2019-07-07,2019-07-07,Canada Eventos,Sech
+134,102,Ye,El Huevo,2022-11-08,2022-11-08,G & t business group spa,Kanye West
+135,103,Super Freaky Girl,Casino de Viña del Mar,2022-01-01,2022-01-01,Glovox producciones limitada,Nicki Minaj
+136,104,DISCOTEKA,Independance Club,2021-02-28,2021-02-28,IndyRock,Lola Indigo
+137,105,SongKick,SOF Q8 Toinha Brasil,2020-08-09,2020-08-09,BRL Eventos,Skrillex
+138,106,Ultra Solo,Niceto Club,2021-11-12,2021-11-12,FMG PRODUCCIONES,Pailita
+139,107,Schulz Forever,Arena Ludwingsburg,2021-02-22,2021-02-22,B+D Events,Robin Schulz
+140,108,Born this way,Shubert Theatre,2017-05-08,2017-05-08,Event Production Company,Lady Gaga
+141,109,Dia Cero,Forest National,2018-11-14,2018-11-14,Global Journey,La Ley
+142,110,Papi Juancho,Estadio Rose Bowl,2022-07-17,2022-07-17,Horwath Productions INC.,Maluma
+143,111,La Ultima Vuelta,Club RBX,2016-12-11,2016-11-14,Street machine producciones s.a.,Daddy Yankee
+144,112,Le Reve,The Fillmore Philadelphia,2017-03-28,2017-03-31,Live Nation,Cirque du Solei
+145,113,A7S Show,Barclaycard Arena,2017-12-19,2017-12-19,B+D Events,A7S
+146,114,Umbrella Concert,Movistar Arena,2019-08-07,2019-08-07,ATOMIC FILMS,Rihanna
+147,115,The Encounter,Crypto.com Arena,2022-04-17,2022-04-17,Revelation,One Direction
+148,116,El Duko2.0,Thunder Bay,2020-07-29,2020-07-29,EventsEye,Duki
+149,117,KAWAII,SALA SANTANA,2022-02-06,2022-02-06,Planet Events,Polima Westcoast
+150,118,Paramore,Niceto Club,2017-01-11,2017-01-11,FEG ENTRETENIMIENTOS,Paramore
+151,119,Tomorrow Never Knows,Studio The Venue,2020-03-07,2020-03-07,Ethno Nueva Zelanda,The Beatles
+152,120,Telepatia,Raley Field,2017-03-02,2017-03-02,Eveerlast Productions INC.,Nathy Peluso
+153,121,PlanAhead,Luna Park,2021-05-02,2021-05-02,ESTADIUM LUNA PARK,Alesso
+154,122,Big Time,"Stage Live, Kalea",2016-04-07,2016-04-07,Planet Events,Big Time Rush
+155,123,MMM Bop,Wilterm Theatre,2017-08-16,2017-08-16,Live Nation,Hansen
+156,124,Anastasia,Teatro Cariola,2019-07-19,2019-07-19,G & t business group spa,Cami
+157,125,Five Day,Arena TSB Bank,2021-07-08,2021-07-08,Event Management NZ,Pearl Jam
+158,126,Fruta y te,Raley Field,2017-04-17,2017-04-17,The Imagos,Gepe
+159,127,Dolby Live,Palais 12,2016-06-07,2016-06-07,Top Bruselas,Aerosmith
+160,128,Map of the Soul,Teatro Municipal de Santiago,2020-12-05,2020-05-15,Capsule producciones spa,BTS
+161,129,Born this way,Irving Plaza,2020-09-12,2020-09-12,CSI DMC,Lady Gaga
+162,130,Passionfruit,Columbianhalle,2020-10-10,2020-10-10,Europages,Drake
+163,131,WAP,Madison Square Garden,2018-12-23,2018-12-23,The Imagos,Cardi B
+164,132,Tusa,Metropolitano Rosario,2020-11-07,2020-11-07,ESPECTACULOS GALLO,Nicki Minaj
+165,133,Frozen,Teatro Colon,2019-12-09,2019-12-09,FMG PRODUCCIONES,Madonna
+166,134,El Alfa Tour,The Brooklyn Monarch,2019-08-25,2019-08-25,Event Production Company,El Alfa
+167,135,Reputation,Raley Field,2016-03-30,2016-03-31,Live Nation,Taylor Swift
+168,136,MJ Tribute,Warehouse Live,2016-01-12,2016-03-12,AEG,Michael Jackson
+169,137,FULL PIOLI,Estadio Rose Bowl,2017-07-13,2017-07-13,Revelation,Pablo Chill-E
+170,138,One Night Only,WIZink Center,2017-09-26,2017-09-26,Producciones Baltimore,Bee Gees
+171,139,Same old love,Days Bay Pavilion,2020-03-28,2020-03-28,manatua.nz,Selena Gomez
+172,140,Convencete,Thunder Bay,2020-02-16,2020-02-16,EventsEye,Princesa Alba
+173,141,Bigger than me,Metropol,2020-06-01,2020-06-01,Europages,Louis Tomlinson
+174,142,Alpha Eventalist,Estadio Bicentario de La Florida,2021-10-15,2021-10-15,DG Medios y espectaculos s.a.,Duncan Laurence
+175,143,Young Flex,Estadio de Futbol Atanasio Girardot,2018-09-04,2018-09-04,Rocko Saroni Eventos,Khea
+176,144,Nicky Jam Show,Radio City Music Hall,2019-08-28,2019-08-28,Live Nation,Nicky Jam
+177,145,Big E Party Moment,Air Canada Centre,2020-10-18,2020-10-18,Eventos Toronto Shaddai,New Kids on the Block
+178,146,Natural,Gran Arena Monticello,2016-05-07,2016-05-07,Dreams - eventos,Selena Gomez
+179,147,Fourplan Mania,Kursaal Oostende,2019-04-29,2019-04-29,Rove.me,Duncan Laurence
+180,148,Get Jacked,Arena TSB Bank,2017-01-16,2017-01-16,Event Management NZ,Afrojack
+181,149,JLo,Club Subterraneo,2018-02-18,2018-02-18,DG Medios y espectaculos s.a.,Jennifer Lopez
+182,150,MMM Bop,HISTORY,2022-05-14,2022-05-14,Expat,Hansen
+183,151,Eventage Feasts,Luna Park,2016-06-09,2016-06-09,ESTADIUM LUNA PARK,Doja Cat
+184,152,Mil Rosas,City Hall el Rodeo,2016-03-03,2016-03-03,Animationphoenix,La Oreja de Van Gogh
+185,153,I Used to Think I could Fly,Salitre Magico,2019-10-23,2019-10-23,Sinstress Eventos,Tate McRae
+186,154,Que oso,Youtube Theatre,2018-05-22,2018-05-22,Los Angeles AV Production,Snow
+187,155,Telepatia,Club Chocolate,2022-04-06,2022-04-06,Eventos luis maturana ortega e.i.r.l,Nathy Peluso
+188,156,Everybody,Gran Arena Monticello,2016-10-21,2016-10-21,DG Medios y espectaculos s.a.,Madonna
+189,157,Shape of you,Aussie Stadium,2016-04-20,2016-04-20,Event Hire Sydney,Ed Sheeran
+190,158,CARAVANA,Carioca Club,2018-07-29,2018-07-29,BRL Eventos,Wos
+191,159,Papi Juancho,Teatro Municipal de Santiago,2020-09-18,2020-09-18,DG Medios y espectaculos s.a.,Maluma
+192,160,Ko Ko Pop,Palau Sant Jordi,2019-04-20,2019-04-20,LetsGo Company,EXO
+193,161,Golden,La Marina de Valencia,2022-03-23,2022-03-26,LetsGo Company,Harry Styles
+194,162,Bigger than me,Teatro Colon,2021-05-29,2021-05-29,PROSPERO PRODUCCIONES,Louis Tomlinson
+195,163,Roads Time,Columbianhalle,2020-02-06,2020-02-06,Europages,Daft Punk
+196,164,"Young, Dumb and Broke",Trafalgar Centre Paru,2020-06-09,2020-06-09,Event Management NZ,Khalid
+197,165,RBD the comeback,Teatro Municipal de Valparaiso,2020-02-17,2020-02-17,Productora de eventos moviefan limitada,RBD
+198,166,Talking to the moon,Aotea Centre,2021-02-24,2021-02-24,manatua.nz,Bruno Mars
+199,167,TJB,Dodger Stadium,2022-06-25,2022-06-25,Hartmann Studios,Jonas Brothers
+200,168,Schulz Forever,La Marina de Valencia,2022-03-22,2022-03-22,Live Nation,Robin Schulz
+201,169,Younger now,HISTORY,2017-03-27,2017-03-27,EventsEye,Miley Cyrus
+202,170,Treat you better,Moon Valencia,2019-09-30,2019-09-30,LetsGo Company,Shawn Mendes
+203,171,Habana,Velodromo de Berlin,2018-10-09,2018-10-09,Litmind,Camila Cabello
+204,172,Bigger than me,Estadio ANZ,2019-07-28,2019-07-28,CMG Audio Visual,Louis Tomlinson
+205,173,I Aint Worried,Estadio Monumental,2019-12-01,2019-12-01,K PRODUCCIONES S.A.,One Republic
+206,174,Kill my mind,La Madeleine,2017-01-28,2017-01-28,Xceed,Louis Tomlinson
+207,175,Paramore,Powerstation 33,2016-05-30,2016-05-30,manatua.nz,Paramore
+208,176,Best Part,Chango Club,2018-08-11,2018-08-11,Planet Events,Daniel Caesar
+209,177,Maria Becerra,Teatro Municipal de Santiago,2022-06-10,2022-06-10,Ais producciones,Maria Becerra
+210,178,ShoNuf Lucky,Opera de Sidney,2019-02-10,2019-02-10,Sydney WorldPride,Hardwell
+211,179,El Duko,Parque Bicentenario Cerrillos,2018-07-12,2018-07-12,Andres gardeweg producciones e.i.r.l,Duki
+212,180,How do you sleep,Teatro Municipal de Santiago,2021-09-25,2021-09-25,Time for fun (t4f),San Smith
+213,181,Lively And Supreme,Quinta Vergara,2018-08-30,2018-08-30,G & t business group spa,Armin Van Buuren
+214,182,El Ultimo Concierto,Gran Arena Monticello,2016-07-19,2016-07-22,Sony music entertainment chile s.a.,Soda Stereo
+215,183,Gowlding,Salitre Magico,2022-12-17,2022-12-17,Audio Level Eventos,Ellie Gowlding
+216,184,Tren al Sur,Estadio Bicentario de La Florida,2018-11-27,2018-11-27,Yellow House,Los Prisioneros
+217,185,RUNAWAY,Estadio ANZ,2021-09-07,2021-12-07,Expat,Bon Jovi
+218,186,CARAVANA,Don Haskins Center,2019-01-05,2019-01-05,Event Production Company,Wos
+219,187,Todo Cambia,Fundo Colmito,2021-12-15,2021-12-15,Comercial caupolican limitada,Mercedes Sosa
+220,188,One Night Only,Bilbao Arena,2021-08-10,2021-08-10,Ibolele Producciones,Bee Gees
+221,189,Watch out for this,Sala But,2019-12-17,2019-12-17,Planet Events,Major Lazer
+222,190,Seize The Day,Thunder Bay,2022-09-08,2022-09-08,EventsEye,My Chemical Romance
+223,191,Dangerous Woman,Days Bay Pavilion,2018-02-08,2018-02-08,Ethno Nueva Zelanda,Ariana Grande
+224,192,I Aint Worried,Luna Park,2021-05-15,2021-05-15,ESTADIUM LUNA PARK,One Republic
+225,193,La Ultima Mision,Estadio Rose Bowl,2017-08-12,2017-08-12,CSI DMC,Wisin & Yandel
+226,194,Drivers License Tour,ZAG Arena,2016-02-17,2016-02-17,MGC,Olivia Rodrigo
+227,195,Heather,Palau Sant Jordi,2018-03-01,2018-03-01,Live Nation,Conan Gray
+228,196,Dangerous Woman,Niceto Club,2021-07-22,2021-07-22,Ramasso Productora,Ariana Grande
+229,197,Gowlding,Sala Apolo,2019-07-03,2019-07-03,Live Nation,Ellie Gowlding
+230,198,Michael Jackson Tribute,Cupula Multiespacio,2017-11-13,2017-11-15,Time for fun (t4f),Michael Jackson
+231,199,The Misery,Spark Arena,2020-10-27,2020-10-27,Queenstown Event Company,Imagine Dragons
+232,200,El J23,Canadian Tire Centre,2020-10-07,2020-10-07,Mayam Producciones,Jordan 23
