@@ -5,9 +5,12 @@
   #Llama a conexión, crea el objeto PDO y obtiene la variable $db
   require("../config/conexion.php");
 
- 	$query = "SELECT productoras.nombre_productora, productoras.pais,  COUNT(eventos.id_evento) FROM productoras, eventos, recintos
-     WHERE recintos.nombre_recinto = eventos.recinto
-     AND eventos.productora = productoras.nombre_productora
+ 	$query = "SELECT productoras.nombre_productora, productoras.pais,  COUNT(eventos.id_evento) AS cantidad_eventos
+     FROM recintos
+     JOIN eventos
+     ON recintos.nombre_recinto = eventos.recinto
+     RIGHT OUTER JOIN productoras
+     ON eventos.productora = productoras.nombre_productora
      AND recintos.pais = productoras.pais
      GROUP BY productoras.nombre_productora, productoras.pais
      ORDER BY productoras.nombre_productora;";
