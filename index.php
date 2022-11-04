@@ -9,8 +9,6 @@
 
   <form align="center" action="consultas/consulta_stats.php" method="post">
     id_evento:
-    <input type="text" name="id_elegido">
-    <br/><br/>
     <input type="submit" value="Buscar">
   </form>
   
