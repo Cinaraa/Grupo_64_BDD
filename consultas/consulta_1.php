@@ -5,7 +5,7 @@
   #Llama a conexión, crea el objeto PDO y obtiene la variable $db
   require("../config/conexion.php");
 
- 	$query = "SELECT nombre_productora, contacto_productora FROM productoras;";
+ 	$query = "SELECT productoras.nombre_productora, productoras.pais, productoras.contacto_productora FROM productoras ORDER BY productoras.nombre;";
 
 
 	$result = $db -> prepare($query);
@@ -15,12 +15,13 @@
 
 	<table>
     <tr>
-      <th>nombre_productora</th>
-      <th>contacto_productora</th>
+      <th>Productora</th>
+      <th>Nacionalidad</th>
+      <th>Contacto</th>
     </tr>
   <?php
 	foreach ($productoras as $productora) {
-  		echo "<tr><td>$productora[0]</td><td>$productora[1]</td></tr>";
+  		echo "<tr><td>$productora[0]</td><td>$productora[1]</td><td>$productora[2]</td></tr>";
 	}
   ?>
 	</table>

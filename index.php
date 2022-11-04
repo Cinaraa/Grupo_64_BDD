@@ -5,16 +5,30 @@
   <p style="text-align:center;">Aquí podrás encontrar información sobre tus eventos favoritos.</p>
 
  
-  <h3 align="center"> ¿Quieres buscar un evento por su ID?</h3>
+  <h3 align="center"> Entregue los nombres y numeros de contacto de todas las productoras de eventos</h3>
 
   <form align="center" action="consultas/consulta_1.php" method="post">
-    id_evento:
+    <br>
+    <input type="submit" value="Buscar">
+  </form>
+
+  <br>
+  <br>
+  <br>
+
+  <h3 align="center"> Entregue el nombre de las productoras, junto a la cantidad de eventos que han producido</h3>
+
+  <form align="center" action="consultas/consulta_2.php" method="post">
+    <br>
     <input type="submit" value="Buscar">
   </form>
   
   <br>
   <br>
   <br>
+
+
+  
   <br>
   <br>
 </body>
