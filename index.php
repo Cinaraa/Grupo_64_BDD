@@ -33,6 +33,9 @@
     Nombre productora:
     <input type="text" name="nombre_productora_elegida">
     <br/>
+    Pais:
+    <input type="text" name="pais_productora_elegida">
+    <br/><br/>
     <input type="submit" value="Buscar">
   </form>
   
