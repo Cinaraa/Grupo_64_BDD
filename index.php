@@ -27,7 +27,18 @@
   <br>
   <br>
 
+  <h3 align="center"> Dado el nombre de una productora, entregue los datos del ultimo evento que ha producido</h3>
 
+  <form align="center" action="consultas/consulta_3.php" method="post">
+    Nombre productora:
+    <input type="text" name="nombre_productora">
+    <br/>
+    <input type="submit" value="Buscar">
+  </form>
+  
+  <br>
+  <br>
+  <br>
   
   <br>
   <br>
