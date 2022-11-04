@@ -7,7 +7,7 @@
  
   <h3 align="center"> ¿Quieres buscar un evento por su ID?</h3>
 
-  <form align="center" action="consultas/consulta_stats.php" method="post">
+  <form align="center" action="consultas/consulta_1.php" method="post">
     id_evento:
     <input type="submit" value="Buscar">
   </form>

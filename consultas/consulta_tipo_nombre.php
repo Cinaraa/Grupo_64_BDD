@@ -1,13 +1,15 @@
 <?php include('../templates/header.html');   ?>
 
 <body>
+
 <?php
   #Llama a conexión, crea el objeto PDO y obtiene la variable $db
   require("../config/conexion.php");
 
-  $id_nuevo = $_POST["id_elegido"];
+	$tipo = $_POST["tipo_elegido"];
+	$nombre = $_POST["nombre_pokemon"];
 
- 	$query = "SELECT * FROM pokemones where id = $id_nuevo;";
+ 	$query = "SELECT id,nombre, tipo FROM pokemones WHERE tipo LIKE '%$tipo%' AND nombre LIKE '%$nombre%';";
 	$result = $db -> prepare($query);
 	$result -> execute();
 	$pokemones = $result -> fetchAll();
@@ -17,14 +19,11 @@
     <tr>
       <th>ID</th>
       <th>Nombre</th>
-      <th>Altura</th>
-      <th>Peso</th>
-      <th>Experiencia Base</th>
       <th>Tipo</th>
     </tr>
   <?php
 	foreach ($pokemones as $pokemon) {
-  		echo "<tr><td>$pokemon[0]</td><td>$pokemon[1]</td><td>$pokemon[2]</td><td>$pokemon[3]</td><td>$pokemon[4]</td><td>$pokemon[5]</td></tr>";
+  		echo "<tr> <td>$pokemon[0]</td> <td>$pokemon[1]</td> <td>$pokemon[2]</td> </tr>";
 	}
   ?>
 	</table>
