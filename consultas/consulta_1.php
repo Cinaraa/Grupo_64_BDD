@@ -5,7 +5,7 @@
   #Llama a conexión, crea el objeto PDO y obtiene la variable $db
   require("../config/conexion.php");
 
- 	$query = "SELECT productoras.nombre_productora, productoras.pais, productoras.contacto_productora FROM productoras ORDER BY productoras.nombre;";
+ 	$query = "SELECT productoras.nombre_productora, productoras.pais, productoras.contacto_productora FROM productoras ORDER BY productoras.nombre_productora;";
 
 
 	$result = $db -> prepare($query);
