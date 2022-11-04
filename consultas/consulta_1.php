@@ -20,7 +20,7 @@
     </tr>
   <?php
 	foreach ($productoras as $productora) {
-  		echo "<tr><td>$productora[0]</td><td>$productora[1]</td><td>$productora[2]</td><td>$productora[3]</td><td>$productora[4]</td><td>$productora[5]</td></tr>";
+  		echo "<tr><td>$productora[0]</td><td>$productora[1]</td></tr>";
 	}
   ?>
 	</table>
