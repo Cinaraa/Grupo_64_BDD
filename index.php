@@ -32,6 +32,7 @@
   <form align="center" action="consultas/consulta_3.php" method="post">
     Nombre productora:
     <input type="text" name="nombre_productora_elegida">
+    <br>
     <br/>
     <input type="submit" value="Buscar">
   </form>
