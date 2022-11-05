@@ -14,8 +14,8 @@
      AND r.nombre_recinto = e.recinto
      AND r.pais = p.pais
      AND e.fecha_inicio >= ALL (SELECT eventos.fecha_inicio FROM eventos, productoras, recintos WHERE eventos.productora = productoras.nombre_productora AND recintos.nombre_recinto = eventos.recinto AND recintos.pais = productoras.pais AND productoras.id_productora = p.id_productora)
-    AND UPPER(p.nombre_productora) LIKE '%$nombre_nuevo%' 
-    AND UPPER(p.pais) LIKE '%$pais_nuevo%';";
+    AND UPPER(p.nombre_productora) LIKE UPPER('%$nombre_nuevo%')
+    AND UPPER(p.pais) LIKE UPPER('%$pais_nuevo%');";
 
 
 	$result = $db -> prepare($query);
