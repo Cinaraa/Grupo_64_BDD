@@ -13,7 +13,8 @@
      WHERE e.productora = p.nombre_productora
      AND r.nombre_recinto = e.recinto
      AND r.pais = p.pais
-     AND e.fecha_inicio >= ALL (SELECT eventos.fecha_inicio FROM eventos, productoras, recintos WHERE eventos.productora = productoras.nombre_productora AND recintos.nombre_recinto = eventos.recinto AND recintos.pais = productoras.pais AND productoras.id_productora = p.id_productora) AND LOWER(p.nombre_productora) LIKE LOWER('%$nombre_nuevo%') AND LOWER(p.pais) LIKE LOWER('%$pais_nuevo%');";
+     AND e.fecha_inicio >= ALL (SELECT eventos.fecha_inicio FROM eventos, productoras, recintos WHERE eventos.productora = productoras.nombre_productora AND recintos.nombre_recinto = eventos.recinto AND recintos.pais = productoras.pais AND productoras.id_productora = p.id_productora) AND p.nombre_productora LIKE '%$nombre_nuevo%' AND p.pais LIKE '%$pais_nuevo%'
+     COLLATE Latin1_general_CI_AI;";
 
 
 	$result = $db -> prepare($query);
