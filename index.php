@@ -30,12 +30,6 @@
   <h3 align="center"> Dado el nombre de una productora, entregue los datos del ultimo evento que ha producido</h3>
 
   <?php
-  #Primero obtenemos todos los tipos de pokemones
-  require("config/conexion.php");
-  $result = $db -> prepare("SELECT DISTINCT pais FROM productoras;");
-  $result -> execute();
-  $dataCollected = $result -> fetchAll();
-
   require("config/conexion.php");
   $result2 = $db -> prepare("SELECT DISTINCT nombre_productora FROM productoras;");
   $result2 -> execute();
@@ -55,14 +49,7 @@
     </select>
     <br/>
     Pais productora:
-    <select name="pais_productora_elegida">
-      <?php
-      #Para cada tipo agregamos el tag <option value=value_of_param> visible_value </option>
-      foreach ($dataCollected as $d) {
-        echo "<option value=$d[0]>$d[0]</option>";
-      }
-      ?>
-    </select>
+    <input type="text" name="pais_productora_elegida">
     <br/><br/>
     <input type="submit" value="Buscar">
   </form>
@@ -73,15 +60,30 @@
   
   <h3 align="center"> Dada una productora, liste a los artistas con los que ha trabajado dicha productora</h3>
 
-<form align="center" action="consultas/consulta_4.php" method="post">
-  Nombre productora:
-  <input type="text" name="nombre_productora_elegida">
-  <br/>
-  Pais productora:
-  <input type="text" name="pais_productora_elegida">
-  <br/><br/>
-  <input type="submit" value="Buscar">
-</form>
+  <?php
+  require("config/conexion.php");
+  $result = $db -> prepare("SELECT DISTINCT nombre_productora FROM productoras;");
+  $result -> execute();
+  $dataCollected = $result -> fetchAll();
+
+  ?>
+
+  <form align="center" action="consultas/consulta_4.php" method="post">
+    Nombre productora:
+    <select name="nombre_productora_elegida">
+      <?php
+      #Para cada tipo agregamos el tag <option value=value_of_param> visible_value </option>
+      foreach ($dataCollected as $d) {
+        echo "<option value=$d[0]>$d[0]</option>";
+      }
+      ?>
+    </select>
+
+    Pais productora:
+    <input type="text" name="pais_productora_elegida">
+    <br/><br/>
+    <input type="submit" value="Buscar">
+  </form>
 
 <br>
 <br>
