@@ -78,7 +78,7 @@
       }
       ?>
     </select>
-
+    <br/>
     Pais productora:
     <input type="text" name="pais_productora_elegida">
     <br/><br/>
