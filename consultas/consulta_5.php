@@ -8,7 +8,7 @@
   $nombre_nuevo = $_POST["nombre_evento_elegido"];
 
 
-  $query = "SELECT SUM(entradas.precio)
+  $query = "SELECT eventos.nombre_evento, SUM(entradas.precio)
   FROM entradas, acceso, eventos
   where entradas.id_entrada = acceso.id_entrada
   AND acceso.id_evento = eventos.id_evento
@@ -17,18 +17,17 @@
 
 	$result = $db -> prepare($query);
 	$result -> execute();
-	$artistas = $result -> fetchAll();
+	$recaudo = $result -> fetchAll();
   ?>
 
 	<table>
     <tr>
-      <th>Artistas</th>
-      <th>Productora</th>
-      <th>Pais productora</th>
+      <th>Evento</th>
+      <th>Ingresos totales recaudados</th>
     </tr>
   <?php
-	foreach ($artistas as $artista) {
-        echo "<tr><td>$artista[0]</td><td>$artista[1]</td><td>$artista[2]</td></tr>";
+	foreach ($recaudos as $recaudo) {
+        echo "<tr><td>$recaudo[0]</td><td>$recaudo[1]</td></tr>";
   }
   ?>
 	</table>
