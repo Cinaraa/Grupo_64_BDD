@@ -5,8 +5,6 @@
   #Llama a conexión, crea el objeto PDO y obtiene la variable $db
   require("../config/conexion.php");
 
-  $nombre_nuevo = $_POST["nombre_productora_elegida"];
-  $pais_nuevo = $_POST["pais_productora_elegida"];
 
   $query = "SELECT DISTINCT ar.nombre_artistico
     FROM artistas AS ar, productoras AS pd, presenta AS pr, eventos AS e, recintos AS r
@@ -14,9 +12,7 @@
     AND r.pais = pd.pais
     AND e.recinto = r.nombre_recinto
     AND e.id_evento = pr.id_evento
-    AND pr.id_artista = ar.id_artista
-    AND UPPER(pd.nombre_productora) = LIKE UPPER('%$nombre_nuevo%') 
-    AND UPPER(pd.pais) LIKE UPPER('%$pais_nuevo%');";
+    AND pr.id_artista = ar.id_artista;";
 
 
 	$result = $db -> prepare($query);
