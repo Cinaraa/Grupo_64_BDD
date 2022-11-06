@@ -46,7 +46,9 @@
   <h3 align="center"> Dada una productora, liste a los artistas con los que ha trabajado dicha productora</h3>
 
 <form align="center" action="consultas/consulta_4.php" method="post">
-
+  Nombre productora:
+  <input type="text" name="productora_elegida">
+  <br/>
   <input type="submit" value="Buscar">
 </form>
 
