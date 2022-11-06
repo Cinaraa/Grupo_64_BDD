@@ -15,20 +15,23 @@
   ORDER BY eventos.nombre_evento;";
 
 
-  $result = $db -> prepare($query);
-  $result -> execute();
-  $entradas = $result -> fetchAll();
-  ?>
+$result = $db -> prepare($query);
+$result -> execute();
+$eventos = $result -> fetchAll();
+?>
 
-  <table>
-    <tr>
-      <th>Ingresos totales recaudados</th>
-    </tr>
-  <?php
-	foreach ($entradas as $entrada) {
-        echo "<tr><td>$entrada[0]</td></tr>";
-  }
-  ?>
-  </table>
+<table>
+<tr>
+  <th>Id</th>
+  <th>Evento</th>
+  <th>Productora</th>
+  <th>Artistas participando</th>
+</tr>
+<?php
+foreach ($eventos as $evento) {
+    echo "<tr><td>$evento[0]</td><td>$evento[1]</td><td>$evento[2]</td><td>$evento[3]]</td></tr>";
+}
+?>
+</table>
 
 <?php include('../templates/footer.html'); ?>
