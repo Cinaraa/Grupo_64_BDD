@@ -20,7 +20,7 @@
   $entradas = $result -> fetchAll();
   ?>
 
-	<table>
+  <table>
     <tr>
       <th>Evento</th>
       <th>Ingresos totales recaudados</th>
