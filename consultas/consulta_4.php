@@ -33,7 +33,7 @@
     </tr>
   <?php
 	foreach ($artistas as $artista) {
-        echo "<tr><td>$artista[0]</td><td>$productora[1]</td><td>$productora[2]</td></tr>";
+        echo "<tr><td>$artista[0]</td><td>$artista[1]</td><td>$artista[2]</td></tr>";
   }
   ?>
 	</table>
