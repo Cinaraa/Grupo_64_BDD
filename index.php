@@ -70,6 +70,18 @@
 <br>
 <br>
 <br>
+
+<h3 align="center"> Liste todos los eventos, junto al numero total de artistas que se presentaran en cada uno</h3>
+
+<form align="center" action="consultas/consulta_6.php" method="post">
+  <br/><br/>
+  <input type="submit" value="Buscar">
+</form>
+
+<br>
+<br>
+<br>
+
   <br>
   <br>
 </body>
