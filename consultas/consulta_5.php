@@ -9,10 +9,10 @@
 
 
   $query = "SELECT eventos.nombre_evento, SUM(entradas.precio)
-  FROM entradas, acceso, eventos
-  where entradas.id_entrada = acceso.id_entrada
-  AND acceso.id_evento = eventos.id_evento
-  AND UPPER(eventos.nombre_evento) LIKE UPPER('%$nombre_nuevo%');";
+    FROM entradas, acceso, eventos
+    where entradas.id_entrada = acceso.id_entrada
+    AND acceso.id_evento = eventos.id_evento
+    AND UPPER(eventos.nombre_evento) LIKE UPPER('%$nombre_nuevo%');";
 
 
 	$result = $db -> prepare($query);
