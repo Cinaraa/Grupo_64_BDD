@@ -16,7 +16,7 @@
     AND e.recinto = r.nombre_recinto
     AND e.id_evento = pr.id_evento
     AND pr.id_artista = ar.id_artista
-    AND UPPER(pd.nombre_productora) LIKE UPPER('%$nombre_nuevo%') 
+    AND pd.nombre_productora = '%$nombre_nuevo%'
     AND UPPER(pd.pais) LIKE UPPER('%$pais_nuevo%');";
 
 
