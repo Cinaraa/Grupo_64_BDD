@@ -5,8 +5,6 @@
   #Llama a conexión, crea el objeto PDO y obtiene la variable $db
   require("../config/conexion.php");
 
-  $nombre_nuevo = $_POST["nombre_evento_elegido"];
-
 
   $query = "SELECT eventos.id_evento,  eventos.nombre_evento, eventos.productora, COUNT(presenta.id_artista) AS artistas_participando
   FROM eventos, presenta
@@ -29,7 +27,7 @@ $eventos = $result -> fetchAll();
 </tr>
 <?php
 foreach ($eventos as $evento) {
-    echo "<tr><td>$evento[0]</td><td>$evento[1]</td><td>$evento[2]</td><td>$evento[3]]</td></tr>";
+    echo "<tr><td>$evento[0]</td><td>$evento[1]</td><td>$evento[2]</td><td>$evento[3]</td></tr>";
 }
 ?>
 </table>
