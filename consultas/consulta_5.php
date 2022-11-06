@@ -8,7 +8,7 @@
   $nombre_nuevo = $_POST["nombre_evento_elegido"];
 
 
-  $query = "SELECT entradas.nombre_evento SUM(entradas.precio) AS suma_evento
+  $query = "SELECT entradas.nombre_evento, SUM(entradas.precio) AS suma_evento
     FROM entradas, acceso, eventos
     where entradas.id_entrada = acceso.id_entrada
     AND acceso.id_evento = eventos.id_evento
