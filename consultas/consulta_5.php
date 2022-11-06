@@ -17,7 +17,7 @@
 
 	$result = $db -> prepare($query);
 	$result -> execute();
-	$recaudo = $result -> fetchAll();
+	$recaudos = $result -> fetchAll();
   ?>
 
 	<table>
