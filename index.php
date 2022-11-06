@@ -82,6 +82,16 @@
 <br>
 <br>
 
+<h3 align="center"> Muestre el nombre del evento que tiene la mayor cantidad de entradas vendidas</h3>
+
+<form align="center" action="consultas/consulta_7.php" method="post">
+  <br/><br/>
+  <input type="submit" value="Buscar">
+</form>
+
+<br>
+<br>
+<br>
   <br>
   <br>
 </body>
