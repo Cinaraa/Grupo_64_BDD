@@ -7,6 +7,7 @@
 
   $nombre_nuevo = $_POST["nombre_productora_elegida"];
   $pais_nuevo = $_POST["pais_productora_elegida"];
+ 
 
   $query = "SELECT e.id_evento, e.nombre_evento, e.recinto, e.fecha_inicio, e.fecha_termino, e.productora, p.pais
      FROM productoras AS p, eventos AS e, recintos AS  r
