@@ -75,32 +75,16 @@
 <br>
 <h3 align="center"> Dado un evento, entregue la suma total de ingresos por ventas de entradas de dicho evento</h3>
 
-<?php
-  #Primero obtenemos todos los tipos de pokemones
-  require("config/conexion.php");
-  $result = $db -> prepare("SELECT DISTINCT nombre_evento FROM eventos;");
-  $result -> execute();
-  $dataCollected = $result -> fetchAll();
-  ?>
+<form align="center" action="consultas/consulta_5.php" method="post">
+  Nombre evento:
+  <input type="text" name="nombre_evento_elegido">
+  <br/><br/>
+  <input type="submit" value="Buscar">
+</form>
 
-  <form align="center" action="consultas/consulta_5.php" method="post">
-    Nombre evento:
-    <select name="nombre_evento_elegido">
-      <?php
-      #Para cada tipo agregamos el tag <option value=value_of_param> visible_value </option>
-      foreach ($dataCollected as $d) {
-        echo "<option value=$d[0]>$d[0]</option>";
-      }
-      ?>
-    </select>
-    <br/><br/>
-    <input type="submit" value="Buscar">
-  </form>
-  
-  <br>
-  <br>
-  <br>
-
+<br>
+<br>
+<br>
 
 <h3 align="center"> Liste todos los eventos, junto al numero total de artistas que se presentaran en cada uno</h3>
 

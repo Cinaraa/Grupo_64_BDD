@@ -12,7 +12,7 @@
     FROM entradas, acceso, eventos
     where entradas.id_entrada = acceso.id_entrada
     AND acceso.id_evento = eventos.id_evento
-    AND UPPER(eventos.nombre_evento) = UPPER('%$nombre_nuevo%')
+    AND UPPER(eventos.nombre_evento) LIKE UPPER('%$nombre_nuevo%')
     GROUP BY entradas.nombre_evento;";
 
 
