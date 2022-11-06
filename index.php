@@ -35,11 +35,24 @@
   $result = $db -> prepare("SELECT DISTINCT pais FROM productoras;");
   $result -> execute();
   $dataCollected = $result -> fetchAll();
+
+  require("config/conexion.php");
+  $result2 = $db -> prepare("SELECT DISTINCT nombre_productora FROM productoras;");
+  $result2 -> execute();
+  $dataCollected2 = $result2 -> fetchAll();
+
   ?>
 
   <form align="center" action="consultas/consulta_3.php" method="post">
     Nombre productora:
-    <input type="text" name="nombre_productora_elegida">
+    <select name="pais_prodnombre_productora_elegidauctora_elegida">
+      <?php
+      #Para cada tipo agregamos el tag <option value=value_of_param> visible_value </option>
+      foreach ($dataCollected2 as $d2) {
+        echo "<option value=$d2[0]>$d2[0]</option>";
+      }
+      ?>
+    </select>
     <br/>
     Pais productora:
     <select name="pais_productora_elegida">
