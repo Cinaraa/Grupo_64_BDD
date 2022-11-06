@@ -14,7 +14,7 @@
     AND e.recinto = r.nombre_recinto
     AND e.id_evento = pr.id_evento
     AND pr.id_artista = ar.id_artista
-    AND UPPER(pd.nombre_productora) = LIKE UPPER('%$nombre_prod%');";
+    AND UPPER(pd.nombre_productora) LIKE UPPER('%$nombre_prod%');";
 
 
 	$result = $db -> prepare($query);
