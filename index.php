@@ -47,8 +47,11 @@
 
 <form align="center" action="consultas/consulta_4.php" method="post">
   Nombre productora:
-  <input type="text" name="productora_elegida">
+  <input type="text" name="nombre_productora_elegida">
   <br/>
+  Pais productora:
+  <input type="text" name="pais_productora_elegida">
+  <br/><br/>
   <input type="submit" value="Buscar">
 </form>
 

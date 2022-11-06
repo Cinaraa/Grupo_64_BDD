@@ -5,16 +5,19 @@
   #Llama a conexión, crea el objeto PDO y obtiene la variable $db
   require("../config/conexion.php");
 
-  $nombre_prod = $_POST["productora_elegida"];
+  $nombre_nuevo = $_POST["nombre_productora_elegida"];
+  $pais_nuevo = $_POST["pais_productora_elegida"];
 
-  $query = "SELECT DISTINCT ar.nombre_artistico
+
+  $query = "SELECT DISTINCT ar.nombre_artistico, pd.nombre_productora, pd.pais
     FROM artistas AS ar, productoras AS pd, presenta AS pr, eventos AS e, recintos AS r
     WHERE e.productora = pd.nombre_productora
     AND r.pais = pd.pais
     AND e.recinto = r.nombre_recinto
     AND e.id_evento = pr.id_evento
     AND pr.id_artista = ar.id_artista
-    AND UPPER(pd.nombre_productora) LIKE UPPER('%$nombre_prod%');";
+    AND UPPER(pd.nombre_productora) LIKE UPPER('%$nombre_prod%') 
+    AND UPPER(pd.pais) LIKE UPPER('%$pais_nuevo%');";
 
 
 	$result = $db -> prepare($query);
@@ -24,11 +27,13 @@
 
 	<table>
     <tr>
-      <th>Artistas </th>
+      <th>Artistas</th>
+      <th>Productora</th>
+      <th>Pais productora</th>
     </tr>
   <?php
 	foreach ($artistas as $artista) {
-        echo "<tr><td>$artista[0]</td></tr>";
+        echo "<tr><td>$artista[0]</td><td>$productora[1]</td><td>$productora[2]</td></tr>";
   }
   ?>
 	</table>
