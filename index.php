@@ -58,7 +58,18 @@
 <br>
 <br>
 <br>
+<h3 align="center"> Dado un evento, entregue la suma total de ingresos por ventas de entradas de dicho evento</h3>
 
+<form align="center" action="consultas/consulta_5.php" method="post">
+  Nombre evento:
+  <input type="text" name="nombre_evento_elegido">
+  <br/><br/>
+  <input type="submit" value="Buscar">
+</form>
+
+<br>
+<br>
+<br>
   <br>
   <br>
 </body>
