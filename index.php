@@ -45,7 +45,7 @@
 
   <form align="center" action="consultas/consulta_3.php" method="post">
     Nombre productora:
-    <select name="pais_prodnombre_productora_elegidauctora_elegida">
+    <select name="nombre_productora_elegida">
       <?php
       #Para cada tipo agregamos el tag <option value=value_of_param> visible_value </option>
       foreach ($dataCollected2 as $d2) {
