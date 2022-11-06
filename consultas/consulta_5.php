@@ -17,7 +17,7 @@
 
 	$result = $db -> prepare($query);
 	$result -> execute();
-	$recaudos = $result -> fetchAll();
+	$entradas = $result -> fetchAll();
   ?>
 
 	<table>
@@ -26,8 +26,8 @@
       <th>Ingresos totales recaudados</th>
     </tr>
   <?php
-	foreach ($recaudos as $recaudo) {
-        echo "<tr><td>$recaudo[0]</td><td>$recaudo[1]</td></tr>";
+	foreach ($entradas as $entrada) {
+        echo "<tr><td>$entrada[0]</td><td>$entrada[1]</td></tr>";
   }
   ?>
 	</table>
