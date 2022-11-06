@@ -21,22 +21,16 @@
 
 	$result = $db -> prepare($query);
 	$result -> execute();
-	$productoras = $result -> fetchAll();
+	$artistas = $result -> fetchAll();
   ?>
 
 	<table>
     <tr>
-      <th>Id </th>
-      <th>Evento</th>
-      <th>Recinto</th>
-      <th>Inicia</th>
-      <th>Termina</th>
-      <th>Productora</th>
-      <th>Nacionalidad</th>
+      <th>Artistas </th>
     </tr>
   <?php
-	foreach ($productoras as $productora) {
-        echo "<tr><td>$productora[0]</td><td>$productora[1]</td><td>$productora[2]</td><td>$productora[3]</td><td>$productora[4]</td><td>$productora[5]</td><td>$productora[6]</td></tr>";
+	foreach ($artistas as $artista) {
+        echo "<tr><td>$artista[0]</td></tr>";
   }
   ?>
 	</table>
