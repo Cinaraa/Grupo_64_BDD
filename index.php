@@ -31,7 +31,7 @@
 
   <?php
   require("config/conexion.php");
-  $result2 = $db -> prepare("SELECT DISTINCT nombre_productora FROM productoras;");
+  $result2 = $db -> prepare("SELECT DISTINCT nombre_productora FROM productoras ORDER BY nombre_productora;");
   $result2 -> execute();
   $dataCollected2 = $result2 -> fetchAll();
 
@@ -62,7 +62,7 @@
 
   <?php
   require("config/conexion.php");
-  $result = $db -> prepare("SELECT DISTINCT nombre_productora FROM productoras;");
+  $result = $db -> prepare("SELECT DISTINCT nombre_productora FROM productoras ORDER BY nombre_productora;");
   $result -> execute();
   $dataCollected = $result -> fetchAll();
 
