@@ -15,9 +15,9 @@
     AND UPPER(eventos.nombre_evento) LIKE UPPER('%$nombre_nuevo%');";
 
 
-	$result = $db -> prepare($query);
-	$result -> execute();
-	$entradas = $result -> fetchAll();
+  $result = $db -> prepare($query);
+  $result -> execute();
+  $entradas = $result -> fetchAll();
   ?>
 
 	<table>
@@ -30,6 +30,6 @@
         echo "<tr><td>$entrada[0]</td><td>$entrada[1]</td></tr>";
   }
   ?>
-	</table>
+  </table>
 
 <?php include('../templates/footer.html'); ?>
