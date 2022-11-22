@@ -22,7 +22,7 @@ BEGIN
         END IF;
 
         SELECT into contrasena
-        floor(rand()*999999-100000+1)+100000;
+        floor(random()*999999-100000+1)+100000;
 
         -- obtenido desde: https://donnierock.com/2020/12/02/sql-server-generar-un-numero-aleatorio-entre-dos-valores/
         insert into usuarios(nombre_usuario, contrasena, tipo) values('hola', '123456', 'artista')
