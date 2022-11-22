@@ -1,16 +1,13 @@
--- usuarios(id, username, contrasena, tipo)
-
 CREATE OR REPLACE FUNCTION
 
--- le entregamos el codigo de la compañía
 existencia_productora ()
 
--- devuelve false si no creo el usuario y true de lo contrario
 RETURNS BOOLEAN AS $$
 
 DECLARE
 contrasena int;
 productoras RECORD;
+nombre_prod str;
 
 BEGIN
 
@@ -19,18 +16,26 @@ BEGIN
     FOR productora IN (SELECT * FROM productoras)
 
     LOOP
-        -- verificamos que no exista
-        IF compania.codigo_compania IN (SELECT username FROM usuarios) THEN
+
+        SELECT LOWER(REPLACE(productora.nombreproductora, ' - ','_'))
+        SELECT LOWER(REPLACE(productora.nombreproductora, '. ',' '))
+        SELECT LOWER(REPLACE(productora.nombreproductora, ' .',' '))
+        SELECT LOWER(REPLACE(productora.nombreproductora, ' ','_'))
+
+        IF productora.nombre_productora IN (SELECT nombre_usuario FROM usuarios) THEN
             RETURN FALSE;
         END IF;
 
-        -- creamos una contraseña aleatoria de 4 dígitos
-        SELECT into contrasena
-        floor(random()*(9999-1000+1))+1000;
+        SELECT into nombre_prod
+        CONCAT(productora.nombreproductora, '_', productora.pais);
 
-        -- insertamos la tupla en la tabla
-        insert into usuarios (username, contrasena, tipo) values(compania.codigo_compania, contrasena, 'compania aerea');
-    
+
+        SELECT into contrasena
+        floor(rand()*(999999-100000+1))+100000;
+
+        -- obtenido desde: https://donnierock.com/2020/12/02/sql-server-generar-un-numero-aleatorio-entre-dos-valores/
+        insert into usuarios (nombre_usuario, contrasena, tipo) values(productora.nombre_productora, contrasena, 'productora');
+
     END LOOP;
     RETURN TRUE;
 
