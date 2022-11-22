@@ -26,7 +26,7 @@ BEGIN
 
         -- obtenido desde: https://donnierock.com/2020/12/02/sql-server-generar-un-numero-aleatorio-entre-dos-valores/
 
-        insert into usuarios (nombre_artista, contrasena, tipo) values(artistas.nombre_artista, contrasena, 'artista');
+        insert into usuarios (nombre_usuario, contrasena, tipo) values(artistas.nombre_artista, contrasena, 'artista');
     
     END LOOP;
     RETURN TRUE;
