@@ -5,9 +5,7 @@ proc_artistas(nombre_artista varchar(100))
 RETURNS BOOLEAN AS $$
 
 DECLARE
-contrasena str;
-
-
+contrasena varchar(6);
 BEGIN
 
     PERFORM setseed(65);

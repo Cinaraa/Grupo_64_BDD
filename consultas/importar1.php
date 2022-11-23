@@ -10,7 +10,6 @@
     $result -> execute();
     $artistas = $result -> fetchAll();
 
-
     foreach ($artistas as $artista){
 
         $query = "SELECT proc1($artista[0]);";
