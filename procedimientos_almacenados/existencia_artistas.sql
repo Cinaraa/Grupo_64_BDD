@@ -17,8 +17,8 @@ BEGIN
 
     LOOP
 
-        SELECT INTO nombre (REPLACE(artista.nombre_artista, ' ', '_')) FROM artista;
-        IF nombre IN (SELECT nombre_usuario FROM grupo65e3.usuarios) THEN
+        -- SELECT INTO nombre (REPLACE(artista.nombre_artista, ' ', '_')) FROM artista;
+        IF artista.nombre_artista IN (SELECT nombre_usuario FROM grupo65e3.usuarios) THEN
             RETURN FALSE;
         END IF;
 
@@ -26,7 +26,7 @@ BEGIN
         floor(random()*999999-100000+1)+100000;
 
         -- obtenido desde: https://donnierock.com/2020/12/02/sql-server-generar-un-numero-aleatorio-entre-dos-valores/
-        insert into usuarios(nombre_usuario, contrasena, tipo) values(nombre, contrasena, 'artista');
+        insert into grupo65e3.usuarios(nombre_usuario, contrasena, tipo) values(artista.nombre_artista, contrasena, 'artista');
     
     END LOOP;
     RETURN TRUE;
