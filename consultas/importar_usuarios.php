@@ -16,8 +16,9 @@
 	
   <?php
 	foreach ($artistas as $artista) {
-        $contrasena = floor(random()*999999-100000+1)+100000;
-  		"INSERT INTO $db65.usuarios (nombre_usuario, contrasena, tipo) values($artista.nombre_artista, $contrasena, 'artista');"
+        
+  		$db65-> prepare("INSERT INTO $db65.usuarios (nombre_usuario, contrasena, tipo) values(?, ?, 'artista');")
+		$result -> execute(array($artista.nombre_artista,floor(random()*999999-100000+1)+100000))
 	}
   ?>
 
