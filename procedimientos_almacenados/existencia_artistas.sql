@@ -13,12 +13,12 @@ BEGIN
 
     PERFORM setseed(65);
 
-    FOR artista IN (SELECT * FROM artistas)
+    FOR artista IN (SELECT * FROM grupo65e3.artistas)
 
     LOOP
 
         SELECT INTO nombre (REPLACE(artista.nombre_artista, ' ', '_')) FROM artista;
-        IF nombre IN (SELECT nombre_usuario FROM usuarios) THEN
+        IF nombre IN (SELECT nombre_usuario FROM grupo65e3.usuarios) THEN
             RETURN FALSE;
         END IF;
 
