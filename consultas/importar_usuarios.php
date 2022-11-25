@@ -7,7 +7,6 @@
 
  	$query = "SELECT * FROM artistas;";
 
-
 	$result = $db65 -> prepare($query);
 	$result -> execute();
 	$artistas = $result -> fetchAll();
@@ -17,8 +16,8 @@
   <?php
 	foreach ($artistas as $artista) {
         
-  		$db65-> prepare("INSERT INTO $db65.usuarios (nombre_usuario, contrasena, tipo) values(?, ?, 'artista');")
-		$result -> execute(array($artista.nombre_artista,floor(random()*999999-100000+1)+100000))
+		$insert= $db65-> prepare("INSERT INTO $db65.usuarios (nombre_usuario, contrasena, tipo) values(?, ?, 'artista');")
+		$insert -> execute(array($artista.nombre_artista,floor(random()*999999-100000+1)+100000))
 	}
   ?>
 
