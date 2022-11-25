@@ -1,20 +1,25 @@
+<?php include('../templates/header.html');   ?>
+
+<body>
 <?php
-    require("../config/conexion.php");
-    include('../templates/header.html');
+  #Llama a conexión, crea el objeto PDO y obtiene la variable $db
+  require("../config/conexion.php");
 
-    #$query = "SELECT existencia_productoras();";
-    #$result = $db64 -> prepare($query);
-    #$result -> execute();
-    #$result -> fetchAll();
+ 	$query = "SELECT * FROM artistas;";
 
-    $query2 = "SELECT existencia_artistas();";
-    $result2 = $db65 -> prepare($query2);
-    $result2 -> execute();
-    $result2 -> fetchAll();
 
-?>
+	$result = $db65 -> prepare($query);
+	$result -> execute();
+	$artistas = $result -> fetchAll();
+  ?>
 
-<?php
-    $msg = "Usuarios importados";
-    header("Location: ../index.php?msg=$msg");
-?>
+	
+  <?php
+	foreach ($artistas as $artista) {
+        contrasena = floor(random()*999999-100000+1)+100000;
+  		"INSERT INTO $db65.usuarios (nombre_usuario, contrasena, tipo) values($artista.nombre_artista, contrasena, 'artista');"
+	}
+  ?>
+
+
+<?php include('../templates/footer.html'); ?>

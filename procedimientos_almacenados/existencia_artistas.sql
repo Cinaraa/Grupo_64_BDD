@@ -11,8 +11,6 @@ nombre varchar(100);
 
 BEGIN
 
-    PERFORM setseed(65);
-
     FOR artista IN (SELECT * FROM grupo65e3.artistas)
 
     LOOP
