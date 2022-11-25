@@ -1,12 +1,13 @@
 CREATE OR REPLACE FUNCTION
 
-proc_artistas ()
+existencia_artistas()
 
 RETURNS BOOLEAN AS $$
 
 DECLARE
-contrasena str;
+contrasena varchar(15);
 artista RECORD;
+nombre varchar(100);
 
 BEGIN
 
@@ -16,8 +17,8 @@ BEGIN
 
     LOOP
 
-        SELECT (REPLACE(artista.nombre_artista, ' ', '_'))
-        IF artista.nombre_artista IN (SELECT nombre_usuario FROM usuarios) THEN
+        SELECT INTO nombre (REPLACE(artista.nombre_artista, ' ', '_')) FROM artista;
+        IF nombre IN (SELECT nombre_usuario FROM usuarios) THEN
             RETURN FALSE;
         END IF;
 
@@ -25,8 +26,7 @@ BEGIN
         floor(random()*999999-100000+1)+100000;
 
         -- obtenido desde: https://donnierock.com/2020/12/02/sql-server-generar-un-numero-aleatorio-entre-dos-valores/
-        insert into usuarios(nombre_usuario, contrasena, tipo) values('hola', '123456', 'artista')
-        insert into usuarios(nombre_usuario, contrasena, tipo) values(artistas.nombre_artista, contrasena, 'artista');
+        insert into usuarios(nombre_usuario, contrasena, tipo) values(nombre, contrasena, 'artista');
     
     END LOOP;
     RETURN TRUE;
