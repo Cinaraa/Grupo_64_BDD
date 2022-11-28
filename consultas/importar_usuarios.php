@@ -28,7 +28,8 @@
 	foreach ($productoras as $productora) {
         
 		$insert_2 = $db65-> prepare("INSERT INTO usuarios (nombre_usuario, contrasena, tipo) values(?, ?, 'productora');");
-		$insert_2 -> execute(array($productora[0],strval(random_int(100000, 999999))));
+		nombre_usuario_prod = $productora[1]+'_'+$productora[2]
+		$insert_2 -> execute(array(nombre_usuario_prod,strval(random_int(100000, 999999))));
 	}
   ?>
 
