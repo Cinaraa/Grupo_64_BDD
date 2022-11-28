@@ -47,4 +47,7 @@
 	}
   ?>
 
-<?php include('../templates/footer.html'); ?>
+<?php
+    $msg = "Usuarios importados";
+    header("Location: ../index.php?msg=$msg");
+?>
