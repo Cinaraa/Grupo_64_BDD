@@ -17,7 +17,7 @@
 	foreach ($artistas as $artista) {
         
 		$insert = $db65-> prepare("INSERT INTO usuarios (nombre_usuario, contrasena, tipo) values(?, ?, 'artista');");
-		$insert -> execute(array($artista[0],strval(floor(((rand(0,1))/10)*999999-100000+1)+100000)));
+		$insert -> execute(array($artista[0],strval(random_int(100000, 999999))));
 	}
   ?>
 
