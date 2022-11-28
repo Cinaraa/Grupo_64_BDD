@@ -31,6 +31,7 @@
 		if($result->num_rows == 0) {
 			$insert -> execute(array($nombre_usuario_artista,strval(random_int(100000, 999999))));
 		} 
+		$db65->close();
 			
 	}
 	foreach ($productoras as $productora) {
@@ -50,6 +51,7 @@
 		if($result->num_rows == 0) {
 			$insert_2 -> execute(array($nombre_usuario_productora,strval(random_int(100000, 999999))));
 		} 
+		$db65->close();
 	}
   ?>
 
