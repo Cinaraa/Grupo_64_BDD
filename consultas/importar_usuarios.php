@@ -27,7 +27,11 @@
 		$nombre_usuario_artis .= $artista[0];
 		$nombre_usuario_artis = str_replace(' ', '_', $nombre_usuario_artis);
 		$nombre_usuario_artista = strtolower($nombre_usuario_artis);
-		$insert -> execute(array($nombre_usuario_artista,strval(random_int(100000, 999999))));
+		$result = $db65->query("SELECT id_usuario FROM usuarios WHERE nombre_usuario = $nombre_usuario_artista");
+		if($result->num_rows == 0) {
+			$insert -> execute(array($nombre_usuario_artista,strval(random_int(100000, 999999))));
+		} 
+			
 	}
 	foreach ($productoras as $productora) {
         
@@ -42,7 +46,10 @@
 		$nombre_usuario_prod = str_replace('.', '', $nombre_usuario_prod);
 		$nombre_usuario_prod = str_replace(' ', '_', $nombre_usuario_prod);
 		$nombre_usuario_productora = strtolower($nombre_usuario_prod);
-		$insert_2 -> execute(array($nombre_usuario_productora,strval(random_int(100000, 999999))));
+		$result = $db65->query("SELECT id_usuario FROM usuarios WHERE nombre_usuario = $nombre_usuario_productora");
+		if($result->num_rows == 0) {
+			$insert_2 -> execute(array($nombre_usuario_productora,strval(random_int(100000, 999999))));
+		} 
 	}
   ?>
 
