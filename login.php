@@ -20,7 +20,7 @@ session_start();
             $_SESSION['tipo'] = $usuario['tipo'];
 
             $msg = "Sesión iniciada correctamente";
-            header("Location: ../index.php?msg=$msg");
+            header("Location: index.php?msg=$msg");
             $login = TRUE;
             break;
         } else {
@@ -29,6 +29,6 @@ session_start();
     }
     if (!$login) {
         $msg = "Usuario o contraseña incorrecta";
-        header("Location: ../index.php?msg=$msg");
+        header("Location: index.php?msg=$msg");
     }
 ?>
