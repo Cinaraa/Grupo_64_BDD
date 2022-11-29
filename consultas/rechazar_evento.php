@@ -5,7 +5,7 @@
 
     if (isset($_GET['nombre_evento'])) {
         $nombre_evento = $_GET['nombre_evento'];
-        $productora = $_GET['productora'];
+        $productora = $_GET['nombre_productora'];
         $pais = $_GET['pais'];
     }
 
@@ -18,7 +18,7 @@
     $result -> execute();
     $result -> fetchAll();
 
-    $msg = "$nombre_evento-$nombre_artista";
+    $msg = "$nombre_evento-$nombre_artista-$productora-$pais";
     header("Location: ../index.php?msg=$msg");
 
 ?>
