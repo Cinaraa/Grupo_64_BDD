@@ -4,5 +4,5 @@
     unset($_SESSION['nombre_usuario']);
     unset($_SESSION['tipo']);
     session_destroy();
-    header('Refresh: 0; url = ../index.php')
+    header('Refresh: 0; url = index.php')
 ?>
