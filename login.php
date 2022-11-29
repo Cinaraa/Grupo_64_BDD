@@ -19,7 +19,7 @@ session_start();
             $_SESSION['contrasena'] = $_POST['contrasena'];
             $_SESSION['tipo'] = $usuario['tipo'];
 
-            $msg = "Sesión iniciada correctamente";
+            $msg = "Sesión iniciada correctamente ";
             header("Location: index.php?msg=$msg");
             $login = TRUE;
             break;
