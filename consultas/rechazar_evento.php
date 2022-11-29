@@ -13,12 +13,12 @@
     $nombre_artista = str_replace('_', ' ', $nombre_art);
 
     $query = "UPDATE eventos SET estado = 'rechazado' WHERE lower(nombre_artista) = '$nombre_artista' AND 
-    nombre_productora = '$productora' AND pais = '$pais';";
+    nombre_productora = '$productora' AND nombre_evento = '$nombre_evento';";
     $result = $db65 -> prepare($query);
     $result -> execute();
     $result -> fetchAll();
 
-    $msg = "$nombre_evento";
+    $msg = "$nombre_evento-$nombre_artista";
     header("Location: ../index.php?msg=$msg");
 
 ?>
