@@ -4,6 +4,7 @@ session_start();
 // Almacenar variables de sesión en array global 
 ?>
 <?php
+    require("../config/conexion.php");
     $nombre_usuario = $_POST['nombre_usuario'];
     $contrasena = $_POST['contrasena'];
 
