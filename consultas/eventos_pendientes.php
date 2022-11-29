@@ -15,8 +15,7 @@
 	$result -> execute();
 	$eventos = $result -> fetchAll();
   ?>
-    <h2> <?php echo $_SESSION['nombre_usuario'] ?> </h2>
-    <h2> <?php echo $nombre_artista ?> </h2>
+
 	<table>
     <tr>
 	  <th>Nombre Evento</th>
@@ -25,10 +24,28 @@
 	  <th>Pais</th>
       <th>Fecha de Inicio</th>
 	  <th>Productora</th>
+
     </tr>
   <?php
 	foreach ($eventos as $evento) {
-  		echo "<tr><td>$evento[0]</td><td>$evento[1]</td><td>$evento[3]</td><td>$evento[4]</td><td>$evento[5]</td><td>$evento[6]</td></tr>";
+  		echo "<tr><td>$evento[0]</td>
+        <td>$evento[1]</td>
+        <td>$evento[3]</td>
+        <td>$evento[4]</td>
+        <td>$evento[5]</td>
+        <td>$evento[6]</td>
+        <td>"
+            ?>
+            <a href="aceptar_evento.php?nombre_evento=<?php echo $evento[0] ?>" class="btn btn-primary">Aceptar</a>
+            <?php
+        "</td>
+        <td>"
+            ?>
+            <a href="rechazar_evento.php?nombre_evento=<?php echo $evento[0] ?>" class="btn btn-primary">Rechazar</a>
+            <?php
+        "</td>
+        
+        </tr>";
 	}
   ?>
 	</table>
