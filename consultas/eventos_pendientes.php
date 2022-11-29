@@ -8,10 +8,9 @@
 
 
     $nombre_art = $_SESSION['nombre_usuario'];
-    $nombre_artis = str_replace('_', ' ', $nombre_art);
-    $nombre_artista = ucwords($nombre_artis);
+    $nombre_artista = str_replace('_', ' ', $nombre_art);
 
- 	$query = "SELECT * FROM eventos WHERE nombre_artista = $nombre_artista AND estado = 'pendiente';";
+ 	$query = "SELECT * FROM eventos WHERE lower(nombre_artista) = $nombre_artista AND estado = 'pendiente';";
 	$result = $db65 -> prepare($query);
 	$result -> execute();
 	$eventos = $result -> fetchAll();
