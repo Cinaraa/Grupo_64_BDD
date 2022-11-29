@@ -12,8 +12,8 @@
     $nombre_art = $_SESSION['nombre_usuario'];
     $nombre_artista = str_replace('_', ' ', $nombre_art);
 
-    $query = "UPDATE eventos SET estado = 'rechazado' WHERE lower(nombre_artista) = '$nombre_artista' AND 
-    nombre_productora = '$productora' AND nombre_evento = '$nombre_evento';";
+    $query = "UPDATE eventos SET estado = 'rechazado' WHERE lower(nombre_artista) = $nombre_artista AND 
+    nombre_productora = $productora AND nombre_evento = $nombre_evento;";
     $result = $db65 -> prepare($query);
     $result -> execute();
     $result -> fetchAll();
