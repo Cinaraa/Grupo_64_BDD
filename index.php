@@ -7,12 +7,13 @@
     <a class="is-underlined has-text-info" href="consultas/importar_usuarios.php">Importar Usuarios</a>
   </div>
 
-  <h1 align="center">Inicio de sesión </h1>
-  <p style="text-align:center;">Aquí podrás iniciar sesión.</p>
+  
 
 <?php
 // Si no está asignada la variable mostrar form para ingresar 
   if(!isset($_SESSION['nombre_usuario'])){?>
+  <h1 align="center">Inicio de sesión </h1>
+  <p style="text-align:center;">Aquí podrás iniciar sesión.</p>
   <div>
     <form method="POST" action = 'login.php'>
       <input type="text" name="nombre_usuario" required>
@@ -23,20 +24,28 @@
 
   <?php } else { ?>
 
-    <h1 align="center">Inicio de sesión </h1>
-    <h2> <?php echo $_SESSION['username'] ?> </h2>
+    <h1 align="center">Sesión Iniciada </h1>
+    <h2> <?php echo $_SESSION['nombre_usuario'] ?> </h2>
 
     <?php if ($_SESSION['tipo'] == 'artista') { ?>
         <form align="center" action="consultas/eventos_programados.php" method="post">
             <button type="submit" >Eventos programados</button>
         </form>
+        <br>
         <form align="center" action="consultas/hospedajes.php" method="post">
             <button type="submit" >Hospedajes</button>
         </form>
     <?php } ?>
 
+    <form align="center" action="logout.php" method="post">
+        <button type="submit" class="btn btn-primary">Cerrar Sesión</button>
+    </form>
+
   <?php } ?> 
 
+  <br>
+  <br>
+  <br>
 
   <h3 align="center"> tours</h3>
 
