@@ -11,7 +11,7 @@
 
 <?php
 // Si no está asignada la variable mostrar form para ingresar 
-  if(empty($_SESSION['nombre_usuario'])){?>
+  if(!isset($_SESSION['nombre_usuario'])){?>
   <div>
     <form method="POST" action = 'login.php'>
       <input type="text" name="nombre_usuario" required>
