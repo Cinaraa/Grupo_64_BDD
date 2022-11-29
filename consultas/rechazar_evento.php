@@ -18,7 +18,7 @@
     $result -> execute();
     $result -> fetchAll();
 
-    $msg = "Evento rechazado";
+    $msg = "$nombre_evento";
     header("Location: ../index.php?msg=$msg");
 
 ?>
