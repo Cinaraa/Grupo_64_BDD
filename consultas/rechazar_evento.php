@@ -7,7 +7,6 @@
         $nombre_evento = $_GET['nombre_evento'];
         $productora = $_GET['nombre_productora'];
         $pais = $_GET['pais'];
-        $fecha = $_GET['fecha'];
     }
 
     $nombre_art = $_SESSION['nombre_usuario'];
@@ -17,7 +16,6 @@
     AND lower(nombre_productora) LIKE lower('$productora') 
     AND lower(nombre_evento) LIKE lower('$nombre_evento')
     AND lower(pais) LIKE lower('$pais')
-    AND fecha_inicio LIKE $fecha
     ;";
 
     $result_rechazo = $db65 -> prepare($query_rechazo);
