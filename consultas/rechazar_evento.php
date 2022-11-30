@@ -11,7 +11,7 @@
 
     $nombre_art = $_SESSION['nombre_usuario'];
     #$nombre_arti = strtolower ($nombre_art)
-    $nombre_artista = str_replace('_', ' ', $nombre_arti);
+    $nombre_artista = str_replace('_', ' ', $nombre_art);
     
     $query_rechazo = "UPDATE eventos SET estado = 'rechazado' WHERE lower(nombre_artista) LIKE '$nombre_artista';"; 
     
