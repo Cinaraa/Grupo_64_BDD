@@ -10,10 +10,11 @@
     }
 
     $nombre_art = $_SESSION['nombre_usuario'];
-    $nombre_artista = str_replace('_', ' ', $nombre_art);
+    
+    $nombre_artista = lower(str_replace('_', ' ', $nombre_art));
     $nombre_productora = str_replace('%20', ' ', $productora);
 
-    $query_rechazo = "UPDATE eventos SET estado = 'rechazado' WHERE lower(nombre_artista) LIKE lower($nombre_artista);"; 
+    $query_rechazo = "UPDATE eventos SET estado = 'rechazado' WHERE lower(nombre_artista) LIKE $nombre_artista;"; 
     
     #AND lower(nombre_productora) LIKE lower($nombre_productora) AND lower(nombre_evento) LIKE lower($nombre_evento);";
 
@@ -37,7 +38,7 @@
         </tr>
     <?php
         
-            echo "<tr><td>lower($nombre_artista)</td></tr>";
+            echo "<tr><td>$nombre_artista</td></tr>";
         
     ?>
         </table>
