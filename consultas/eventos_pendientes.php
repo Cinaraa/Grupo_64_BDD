@@ -36,14 +36,12 @@
         <td>$evento[6]</td>
         <td>"
             ?>
-            <a href="aceptar_evento.php?nombre_evento=<?php echo $evento[0] ?>&nombre_productora=<?php echo $evento[6] ?>&pais=
-            <?php echo $evento[4] ?>&fecha=<?php echo $evento[5] ?>" class="btn btn-primary">Aceptar</a>
+            <a href="aceptar_evento.php?nombre_evento=<?php echo $evento[0] ?>&nombre_productora=<?php echo $evento[6] ?>&pais=<?php echo $evento[4]?>" class="btn btn-primary">Aceptar</a>
             <?php
         "</td>
         <td>"
             ?>
-            <a href="rechazar_evento.php?nombre_evento=<?php echo $evento[0] ?>&nombre_productora=<?php echo $evento[6] ?>&pais=
-            <?php echo $evento[4] ?>&fecha=<?php echo $evento[5] ?>" class="btn btn-primary">Rechazar</a>
+            <a href="rechazar_evento.php?nombre_evento=<?php echo $evento[0] ?>&nombre_productora=<?php echo $evento[6] ?>&pais=<?php echo $evento[4]?>" class="btn btn-primary">Rechazar</a>
             <?php
         "</td>
         

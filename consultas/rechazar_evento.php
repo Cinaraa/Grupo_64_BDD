@@ -15,6 +15,7 @@
     $query_rechazo = "UPDATE eventos SET estado = 'rechazado' WHERE lower(nombre_artista) LIKE '$nombre_artista'
     AND lower(nombre_productora) LIKE lower('$productora') 
     AND lower(nombre_evento) LIKE lower('$nombre_evento')
+    AND lower(pais) LIKE lower('$pais')
     ;";
 
     $result_rechazo = $db65 -> prepare($query_rechazo);
