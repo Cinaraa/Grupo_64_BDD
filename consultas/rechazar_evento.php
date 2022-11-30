@@ -7,6 +7,7 @@
         $nombre_evento = $_GET['nombre_evento'];
         $productora = $_GET['nombre_productora'];
         $pais = $_GET['pais'];
+        $fecha = $_GET['fecha'];
     }
 
     $nombre_art = $_SESSION['nombre_usuario'];
@@ -14,37 +15,16 @@
     
     $query_rechazo = "UPDATE eventos SET estado = 'rechazado' WHERE lower(nombre_artista) LIKE '$nombre_artista'
     AND lower(nombre_productora) LIKE lower('$productora') 
-    AND lower(nombre_evento) LIKE lower('$nombre_evento');";
+    AND lower(nombre_evento) LIKE lower('$nombre_evento')
+    AND lower(pais) LIKE lower('$pais')
+    AND fecha_inicio LIKE '$fecha'
+    ;";
 
     $result_rechazo = $db65 -> prepare($query_rechazo);
     $result_rechazo -> execute();
-    ?>
 
-    <body>
-    <?php
-    #Llama a conexión, crea el objeto PDO y obtiene la variable $db
-        require("../config/conexion.php");
-
-        
-        $rechazados = $result_rechazo -> fetchAll();
-    ?>
-
-        <table>
-        <tr>
-        <th>Tour</th>
-
-        </tr>
-    <?php
-        
-            echo "<tr><td>$nombre_artista</td></tr>";
-        
-    ?>
-        </table>
-
-    <?php
-    #$msg = "$nombre_evento-$nombre_artista-$productora-$pais";
-    $msg = "";
-    #header("Location: ../index.php?msg=$msg");
+    $msg = "Evento rechazado";
+    header("Location: ../index.php?msg=$msg");
 
 ?>
 
