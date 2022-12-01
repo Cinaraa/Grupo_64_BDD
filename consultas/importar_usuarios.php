@@ -25,7 +25,7 @@
 		$insert = $db65-> prepare("INSERT INTO usuarios (nombre_usuario, contrasena, tipo) values(?, ?, ?);");
 		$nombre_usuario_artis = '';
 		$nombre_usuario_artis .= $artista[0];
-		$nombre_usuario_artis1 = $nombre_usuario_artis;
+		#$nombre_usuario_artis1 = $nombre_usuario_artis;
 		$nombre_usuario_artis = str_replace(' ', '_', $nombre_usuario_artis1);
 		$nombre_usuario_artista = strtolower($nombre_usuario_artis);
 		$insert -> execute(array($nombre_usuario_artista,strval(random_int(100000, 999999)), 'artista'));
