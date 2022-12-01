@@ -52,9 +52,7 @@
         } 
     }?>
 
-
     <?php
-
     if ($cond == TRUE){?>
        <table>
     <tr>
@@ -72,14 +70,11 @@
     ?>
     </table> 
   
-    <?php} elseif($cond == FALSE){?>
+    <?php}# elseif($cond == FALSE){?>
 
-    <h3 align="center"> No existe un tour asociado al evento</h3>
+    <!-- <h3 align="center"> No existe un tour asociado al evento</h3> -->
 
-    <?php}
-
-    
-    
+    <?php#}
 ?>
     
 <form action="eventos_programados.php" method="get">
@@ -88,10 +83,3 @@
 </body>
 
 </html>
-
-
-
-    
-   
-
-    
