@@ -43,7 +43,7 @@
 
     <?php
 
-    $exists = array('-','-','-','-')
+    $exists = ['-','-','-','-']
     foreach ($tours as $tour) {
         if ($tour[0] == $nombre_evento){
             $exists = $tour;
