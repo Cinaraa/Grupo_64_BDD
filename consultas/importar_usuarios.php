@@ -25,9 +25,10 @@
 		$insert = $db65-> prepare("INSERT INTO usuarios (nombre_usuario, contrasena, tipo, nombre) values(?, ?, ?, ?);");
 		$nombre_usuario_artis = '';
 		$nombre_usuario_artis .= $artista[0];
-		$nombre_usuario_artis = str_replace(' ', '_', $nombre_usuario_artis);
+		$nombre_usuario_artis1 = $nombre_usuario_artis;
+		$nombre_usuario_artis = str_replace(' ', '_', $nombre_usuario_artis1);
 		$nombre_usuario_artista = strtolower($nombre_usuario_artis);
-		$insert -> execute(array($nombre_usuario_artista,strval(random_int(100000, 999999)), 'artista', strval($artista[0])));		
+		$insert -> execute(array($nombre_usuario_artista,strval(random_int(100000, 999999)), 'artista', $nombre_usuario_artis1));		
 	}
 
 	foreach ($productoras as $productora) {
@@ -35,6 +36,13 @@
 		$insert_2 = $db65-> prepare("INSERT INTO usuarios (nombre_usuario, contrasena, tipo, nombre, pais) values(?, ?, ?, ?, ?);");
 		$nombre_usuario_prod = '';
 		$nombre_usuario_prod .= $productora[1];
+
+		$nombre_prod = '';
+		$nombre_prod .= $productora[1];
+
+		$pais = '';
+		$pais .= $productora[2];
+
 		$nombre_usuario_prod .= '_';
 		$nombre_usuario_prod .= $productora[2];
 		$nombre_usuario_prod = str_replace(' . ', '', $nombre_usuario_prod);
@@ -43,7 +51,7 @@
 		$nombre_usuario_prod = str_replace('.', '', $nombre_usuario_prod);
 		$nombre_usuario_prod = str_replace(' ', '_', $nombre_usuario_prod);
 		$nombre_usuario_productora = strtolower($nombre_usuario_prod);
-		$insert_2 -> execute(array($nombre_usuario_productora,strval(random_int(100000, 999999)), 'productora', strval($productora[1]), strval($productora[2])));
+		$insert_2 -> execute(array($nombre_usuario_productora,strval(random_int(100000, 999999)), 'productora', $nombre_prod, $pais));
 	}
   ?>
 
