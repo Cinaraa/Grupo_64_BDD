@@ -21,5 +21,11 @@
   <br>
   <br>
 
+  <br>
+<br>
+<form action="buscar.php" method="get">
+    <input type="submit" value="Volver">
+</form>
+</body>
 
-  <?php include('../templates/footer.html'); ?>
+</html>
