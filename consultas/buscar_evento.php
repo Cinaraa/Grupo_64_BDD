@@ -9,10 +9,10 @@
 
   <form align="center" action="buscar.php" method="post">
     Fecha de Inicio:
-    <input type="date" name="fecha_inicio">
+    <input type="date" name="fecha_inicio" required>
     <br/><br/>
     Fecha de Término:
-    <input type="date" name="fecha_termino">
+    <input type="date" name="fecha_termino" required>
     <br/><br/>
     <input type="submit" value="Buscar">
   </form>

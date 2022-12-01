@@ -11,19 +11,19 @@
 
   <form align="center" action="crear.php" method="post">
     Nombre Evento:
-    <input type="text" name="nombre_evento">
+    <input type="text" name="nombre_evento" required>
     <br/><br/>
     Nombre Recinto:
-    <input type="text" name="nombre_recinto">
+    <input type="text" name="nombre_recinto" required>
     <br/><br/>
     Nombre Artista:
-    <input type="text" name="nombre_artista">
+    <input type="text" name="nombre_artista" required>
     <br/><br/>
     Ciudad:
-    <input type="text" name="ciudad">
+    <input type="text" name="ciudad" required>
     <br/><br/>
     Fecha de Inicio:
-    <input type="date" name="fecha_inicio"> 
+    <input type="date" name="fecha_inicio" required> 
     <br/><br/>
     <input type="submit" value="Buscar">
   </form>
