@@ -26,7 +26,7 @@
 		$nombre_usuario_artis = '';
 		$nombre_usuario_artis .= $artista[0];
 		#$nombre_usuario_artis1 = $nombre_usuario_artis;
-		$nombre_usuario_artis = str_replace(' ', '_', $nombre_usuario_artis1);
+		$nombre_usuario_artis = str_replace(' ', '_', $nombre_usuario_artis);
 		$nombre_usuario_artista = strtolower($nombre_usuario_artis);
 		$insert -> execute(array($nombre_usuario_artista,strval(random_int(100000, 999999)), 'artista'));
 		#$insert -> execute(array($nombre_usuario_artista,strval(random_int(100000, 999999)), 'artista', $nombre_usuario_artis1));	
@@ -38,11 +38,11 @@
 		$nombre_usuario_prod = '';
 		$nombre_usuario_prod .= $productora[1];
 
-		$nombre_prod = '';
-		$nombre_prod .= $productora[1];
+		#$nombre_prod = '';
+		#$nombre_prod .= $productora[1];
 
-		$pais = '';
-		$pais .= $productora[2];
+		#$pais = '';
+		#$pais .= $productora[2];
 
 		$nombre_usuario_prod .= '_';
 		$nombre_usuario_prod .= $productora[2];
