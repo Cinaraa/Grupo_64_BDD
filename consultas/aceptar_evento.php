@@ -43,19 +43,19 @@
     ?>
 
     <?php
-    $cont = 1;
+    $cont = 0;
     $que = "no_entra";
     foreach ($eventos as $evento) {
         if ($evento[7] = 'pendiente'){
             break;
         } if ($rows = $cont) {
+            $cont += 1;
             $query_programado1 = "UPDATE eventos SET estado = 'programado' WHERE lower(nombre_evento) = lower('$nombre_evento')
             AND lower(nombre_productora) LIKE lower('$productora') 
             AND lower(pais) LIKE lower('$pais');";
             $result_programado1 = $db65 -> prepare($query_programado1);
             $result_programado1 -> execute();  
             $que = "entra";
-        ++$cont;
         }
     }
     $msg = "$rows-$cont-$que";
