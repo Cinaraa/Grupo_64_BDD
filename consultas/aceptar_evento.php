@@ -66,7 +66,7 @@
     }
     else {
         #$msg = "Evento aceptado";
-        $msg = "$rows-$cont"
+        $msg = "rows-$rows-cont-$cont";
         header("Location: ../index.php?msg=$msg");
     }
     
