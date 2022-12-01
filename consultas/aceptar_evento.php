@@ -86,7 +86,7 @@
     $que = "no_entra";
     foreach ($eventos as $evento) {
         $cont += 1;
-        if ($evento[7] = 'pendiente'){
+        if ($evento[7] == 'pendiente'){
             $que = "entro mal";
             break;
         } if ($rows = $cont) {
