@@ -39,7 +39,7 @@
     require("../config/conexion.php");
     $rows = 0;
     foreach ($eventos as $evento) {
-        ++$rows;
+        $rows+=1;
     }    
     ?>
 
@@ -65,7 +65,8 @@
         header("Location: ../index.php?msg=$msg");
     }
     else {
-        $msg = "Evento aceptado";
+        #$msg = "Evento aceptado";
+        $msg ="rows-$rows-cont-$cont"
         header("Location: ../index.php?msg=$msg");
     }
     
