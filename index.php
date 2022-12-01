@@ -35,6 +35,10 @@
         <form align="center" action="consultas/eventos_pendientes.php" method="post">
             <button type="submit" >Eventos pendientes</button>
         </form>
+        br>
+        <form align="center" action="consultas/eventos_aceptados.php" method="post">
+            <button type="submit" >Eventos aceptados</button>
+        </form>
         <br>
         <form align="center" action="consultas/hospedajes.php" method="post">
             <button type="submit" >Hospedajes</button>

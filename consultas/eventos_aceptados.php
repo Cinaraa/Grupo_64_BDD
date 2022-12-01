@@ -10,7 +10,7 @@
     $nombre_art = $_SESSION['nombre_usuario'];
     $nombre_artista = str_replace('_', ' ', $nombre_art);
 
- 	$query = "SELECT * FROM eventos WHERE lower(nombre_artista) = '$nombre_artista' AND estado = 'programado';";
+ 	$query = "SELECT * FROM eventos WHERE lower(nombre_artista) = '$nombre_artista' AND estado = 'aceptado';";
 	$result = $db65 -> prepare($query);
 	$result -> execute();
 	$eventos = $result -> fetchAll();
