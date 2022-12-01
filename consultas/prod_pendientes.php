@@ -10,7 +10,7 @@
     $pais_prod = $_SESSION['pais'];
 
  	$query = "SELECT * FROM eventos WHERE nombre_productora = '$nombre_prod' AND pais = '$pais_prod' 
-  AND estado = 'pendientes' ORDER BY fecha_inicio;";
+  AND estado = 'pendiente' ORDER BY fecha_inicio;";
 	$result = $db65 -> prepare($query);
 	$result -> execute();
 	$eventos = $result -> fetchAll();
