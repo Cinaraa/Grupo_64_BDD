@@ -45,6 +45,8 @@
         </form>
     <?php } ?>
 
+    <br>
+    
     <form align="center" action="logout.php" method="post">
         <button type="submit" class="btn btn-primary">Cerrar Sesión</button>
     </form>
