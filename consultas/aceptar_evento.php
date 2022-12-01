@@ -36,37 +36,28 @@
     ?>
 
     <?php
-    require("../config/conexion.php");
-    $rows = 0;
-    foreach ($eventos as $evento) {
-        $rows+=1;
-    }    
-    ?>
-
-    <?php
-    $cond = FALSE;
+    $cond = TRUE;
     $cont = 0;
     foreach ($eventos as $evento) {
-        $cont += 1;
         if ($evento[7] == 'pendiente'){
-            break;
-        } if ($rows = $cont) {
-            $query_programado1 = "UPDATE eventos SET estado = 'programado' WHERE lower(nombre_evento) = lower('$nombre_evento')
-            AND lower(nombre_productora) LIKE lower('$productora') 
-            AND lower(pais) LIKE lower('$pais');";
-            $result_programado1 = $db65 -> prepare($query_programado1);
-            $result_programado1 -> execute();
-            $cond = TRUE;  
-        }
+            $cond = FALSE;
+            break
+        } 
     }
 
-    if ($cond == True){
+    if ($cond == TRUE){
+
+        $query_programado1 = "UPDATE eventos SET estado = 'programado' WHERE lower(nombre_evento) = lower('$nombre_evento')
+        AND lower(nombre_productora) LIKE lower('$productora') 
+        AND lower(pais) LIKE lower('$pais');";
+        $result_programado1 = $db65 -> prepare($query_programado1);
+        $result_programado1 -> execute();
+
         $msg = "Evento programado";
         header("Location: ../index.php?msg=$msg");
     }
     else {
-        #$msg = "Evento aceptado";
-        $msg = "rows-$rows-cont-$cont";
+        $msg = "Evento aceptado";
         header("Location: ../index.php?msg=$msg");
     }
     
