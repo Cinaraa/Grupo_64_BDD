@@ -21,8 +21,8 @@
     $result_acepto = $db65 -> prepare($query_acepto);
     $result_acepto -> execute();
 
-    #$msg = "Evento aceptado";
-    #header("Location: ../index.php?msg=$msg");
+    $msg = "Evento aceptado";
+    header("Location: ../index.php?msg=$msg");
 
 
     #Revisa si todos los eventos estan aceptados y ahi los pone como programado
