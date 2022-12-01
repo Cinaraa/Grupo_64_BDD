@@ -46,7 +46,7 @@
     $cond = FALSE;
     foreach ($tours as $tour) {
         if ($tour[0] == $nombre_evento){
-            $exists = $tour
+            $exists = $tour;
             $cond = TRUE;
             break;
         } 
