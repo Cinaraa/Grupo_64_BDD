@@ -5,12 +5,9 @@
 
 <body>
   <h1 align="center">Crear Evento </h1>
-  <p style="text-align:center;">Aquí podrás encontrar información sobre artistas y sus eventos.</p>
-
   <br>
 
-
-  <h3 align="center"> ¿Quieres buscar cuántas entradas de cortesía ha entregado un artista?</h3>
+  <h3 align="center"> ¿Quieres crear un evento?</h3>
 
   <form align="center" action="consultas/crear.php" method="post">
     Nombre Evento:
@@ -26,7 +23,7 @@
     <input type="text" name="ciudad">
     <br/><br/>
     Fecha de Inicio:
-    <input type="text" name="fecha_inicio"> 
+    <input type="date" name="fecha_inicio"> 
     <br/><br/>
     <input type="submit" value="Buscar">
   </form>
