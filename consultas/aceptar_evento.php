@@ -44,6 +44,7 @@
 
     <?php
     $cont = 0;
+    $que = "no_entra";
     foreach ($eventos as $evento) {
         $cont += 1;
         if ($evento[7] = 'pendiente'){
@@ -53,10 +54,11 @@
             AND lower(nombre_productora) LIKE lower('$productora') 
             AND lower(pais) LIKE lower('$pais');";
             $result_programado1 = $db65 -> prepare($query_programado1);
-            $result_programado1 -> execute();    
+            $result_programado1 -> execute();  
+            $que = "entra"  
         }
     }
-    $msg = "$rows-$cont";
+    $msg = "$rows-$cont-$que";
     header("Location: ../index.php?msg=$msg");
 
 ?>
