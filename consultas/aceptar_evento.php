@@ -43,10 +43,9 @@
     ?>
 
     <?php
-    $cont = 0;
+    $cont = 1;
     $que = "no_entra";
     foreach ($eventos as $evento) {
-        $cont += 1;
         if ($evento[7] = 'pendiente'){
             break;
         } elseif ($rows = $cont) {
@@ -56,6 +55,7 @@
             $result_programado1 = $db65 -> prepare($query_programado1);
             $result_programado1 -> execute();  
             $que = "entra";
+        ++$cont;
         }
     }
     $msg = "$rows-$cont-$que";
