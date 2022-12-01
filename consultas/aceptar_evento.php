@@ -55,7 +55,7 @@
             AND lower(pais) LIKE lower('$pais');";
             $result_programado1 = $db65 -> prepare($query_programado1);
             $result_programado1 -> execute();  
-            $que = "entra"  
+            $que = "entra";
         }
     }
     $msg = "$rows-$cont-$que";
