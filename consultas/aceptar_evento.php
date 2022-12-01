@@ -35,43 +35,6 @@
     $eventos = $result_programado -> fetchAll();
     ?>
 
-
-
-
-
-
-<table>
-    <tr>
-	  <th>Nombre Evento</th>
-      <th>Recinto</th>
-	  <th>Ciudad</th>
-	  <th>Pais</th>
-      <th>Fecha de Inicio</th>
-	  <th>Productora</th>
-      <th>Estado</th>
-
-    </tr>
-  <?php
-	foreach ($eventos as $evento) {
-  		echo "<tr><td>$evento[0]</td>
-        <td>$evento[1]</td>
-        <td>$evento[3]</td>
-        <td>$evento[4]</td>
-        <td>$evento[5]</td>
-        <td>$evento[6]</td>
-        <td>$evento[6]</td>
-        </tr>";
-	}
-  ?>
-	</table>
-
-
-
-
-
-
-
-
     <?php
     $rows = 0;
     foreach ($eventos as $evento) {
@@ -80,6 +43,7 @@
     
     $cont = 0;
     foreach ($eventos as $evento) {
+        $cont += 1;
         if ($evento[7] = 'pendiente'){
             break;
         } elseif ($rows = $cont) {
@@ -89,7 +53,6 @@
             $result_programado1 = $db65 -> prepare($query_programado1);
             $result_programado1 -> execute();    
         }
-        $cont += 1;
     }
     #$msg = "$rows-$cont";
     #header("Location: ../index.php?msg=$msg");
