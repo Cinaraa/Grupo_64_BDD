@@ -39,7 +39,7 @@
     $cont = 0;
     $rows = 0;
     foreach ($eventos as $evento) {
-        $rows++;
+        ++$rows;
     }    
     
     foreach ($eventos as $evento) {
@@ -52,9 +52,10 @@
             $result_programado1 = $db65 -> prepare($query_programado1);
             $result_programado1 -> execute();    
         }
-        $cont++;
+        ++$cont;
     }
-
+    $msg = "$rows";
+    header("Location: ../index.php?msg=$msg");
 
 ?>
 
