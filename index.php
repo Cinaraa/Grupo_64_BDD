@@ -24,8 +24,8 @@
 
   <?php } else { ?>
 
-    <h1 align="center">Sesión Iniciada </h1>
-    <h2> <?php echo $_SESSION['nombre_usuario'] ?> </h2>
+    <h1> Sesión Iniciada </h1>
+    <h2 align="center"> Bienvenido <?php echo $_SESSION['nombre_usuario'] ?>! </h2>
 
     <?php if ($_SESSION['tipo'] == 'artista') { ?>
         <form align="center" action="consultas/eventos_programados.php" method="post">
@@ -42,6 +42,32 @@
         <br>
         <form align="center" action="consultas/hospedajes.php" method="post">
             <button type="submit" >Hospedajes</button>
+        </form>
+    <?php } ?>
+
+    <?php if ($_SESSION['tipo'] == 'productora') { ?>
+        <form align="center" action="consultas/prod_programados.php" method="post">
+            <button type="submit" >Eventos programados</button>
+        </form>
+        <br>
+        <form align="center" action="consultas/prod_pendientes.php" method="post">
+            <button type="submit" >Eventos pendientes</button>
+        </form>
+        <br>
+        <form align="center" action="consultas/prod_aceptados.php" method="post">
+            <button type="submit" >Eventos aceptados</button>
+        </form>
+        <br>
+        <form align="center" action="consultas/prod_rechazados.php" method="post">
+            <button type="submit" >Eventos rechazados</button>
+        </form>
+        <br>
+        <form align="center" action="consultas/buscar_evento.php" method="post">
+            <button type="submit" >Buscar evento por fecha</button>
+        </form>
+        <br>
+        <form align="center" action="consultas/crear_evento.php" method="post">
+            <button type="submit" >Crear evento</button>
         </form>
     <?php } ?>
 
