@@ -19,8 +19,8 @@
 	<table>
     <tr>
 	  <th>Nombre Evento</th>
-    <th>Nombre Artista</th>
     <th>Recinto</th>
+    <th>Nombre Artista</th>
 	  <th>Ciudad</th>
 	  <th>Pais</th>
     <th>Fecha de Inicio</th>
