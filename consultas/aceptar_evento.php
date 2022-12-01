@@ -33,11 +33,10 @@
     $result_programado = $db65 -> prepare($query_programado);
     $result_programado -> execute();
     $eventos = $result_programado -> fetchAll();
-
+    $cont = 0 
     ?>
 
     <?php
-    $cont = 0 
     foreach ($eventos as $evento) {
         if ($evento[7] = 'pendiente'){
             break
