@@ -23,7 +23,7 @@
 
   <br>
 <br>
-<form action="index.php" method="get">
+<form action="../index.php" method="get">
     <input type="submit" value="Volver">
 </form>
 </body>
