@@ -32,8 +32,6 @@
         <td>$hospedaje[5]</td>
         <td>$hospedaje[2]</td>
         <td>$hospedaje[3]</td>
-        <td>$hospedaje[4]</td>
-        <td>$hospedaje[5]</td>
         <td>$hospedaje[0]</td>
         <td>$hospedaje[6]</td>
         </tr>";
