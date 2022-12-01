@@ -40,7 +40,9 @@
     foreach ($eventos as $evento) {
         ++$rows;
     }    
-    
+    ?>
+
+    <?php
     $cont = 0;
     foreach ($eventos as $evento) {
         $cont += 1;
@@ -54,8 +56,8 @@
             $result_programado1 -> execute();    
         }
     }
-    #$msg = "$rows-$cont";
-    #header("Location: ../index.php?msg=$msg");
+    $msg = "$rows-$cont";
+    header("Location: ../index.php?msg=$msg");
 
 ?>
 
