@@ -18,6 +18,8 @@ session_start();
             $_SESSION['nombre_usuario'] = $_POST['nombre_usuario'];
             $_SESSION['contrasena'] = $_POST['contrasena'];
             $_SESSION['tipo'] = $usuario['tipo'];
+            $_SESSION['nombre'] = $usuario['nombre'];
+            $_SESSION['pais'] = $usuario['pais'];
 
             $msg = "Sesión iniciada correctamente ";
             header("Location: index.php?msg=$msg");

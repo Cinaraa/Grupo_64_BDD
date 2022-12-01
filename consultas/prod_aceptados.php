@@ -9,7 +9,7 @@
     $nombre_prod = $_SESSION['nombre'];
     $pais_prod = $_SESSION['pais'];
 
- 	$query = "SELECT * FROM eventos WHERE nombre_productora = '$nombre_prod' AND pais = '$pais' 
+ 	$query = "SELECT * FROM eventos WHERE nombre_productora = '$nombre_prod' AND pais = '$pais_prod' 
   AND estado = 'aceptados' ORDER BY fecha_inicio;";
 	$result = $db65 -> prepare($query);
 	$result -> execute();
