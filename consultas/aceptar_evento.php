@@ -41,7 +41,7 @@
     foreach ($eventos as $evento) {
         if ($evento[7] == 'pendiente'){
             $cond = FALSE;
-            break
+            break;
         } 
     }
 
