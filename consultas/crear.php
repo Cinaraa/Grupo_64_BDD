@@ -27,7 +27,6 @@
   $fecha_inicio = date($fecha_inicio);
   ?>
 
-	
   <?php
 
 		$insert = $db65-> prepare("INSERT INTO eventos (nombre_evento, nombre_recinto, nombre_artista, ciudad, pais, fecha_inicio, nombre_productora) 
