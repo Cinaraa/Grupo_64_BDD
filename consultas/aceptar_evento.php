@@ -36,6 +36,7 @@
     ?>
 
     <?php
+    require("../config/conexion.php");
     $rows = 0;
     foreach ($eventos as $evento) {
         ++$rows;
