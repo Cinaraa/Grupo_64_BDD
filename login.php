@@ -8,7 +8,7 @@ session_start();
     $nombre_usuario = $_POST['nombre_usuario'];
     $contrasena = $_POST['contrasena'];
 
-    $query = "SELECT nombre_usuario, contrasena, tipo FROM usuarios;";
+    $query = "SELECT nombre_usuario, contrasena, tipo, nombre, pais FROM usuarios;";
     $result = $db65 -> prepare($query);
     $result -> execute();
     $usuarios = $result -> fetchAll();
