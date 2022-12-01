@@ -53,4 +53,10 @@ include('../templates/header.html');   ?>
   ?>
 	</table>
 
-<?php include('../templates/footer.html'); ?>
+  <br>
+<form action="buscar_evento.php" method="get">
+    <input type="submit" value="Volver">
+</form>
+</body>
+
+</html>
