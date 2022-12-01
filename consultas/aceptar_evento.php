@@ -33,17 +33,17 @@
     $result_programado = $db65 -> prepare($query_programado);
     $result_programado -> execute();
     $eventos = $result_programado -> fetchAll();
-    $cont = 0 
     ?>
 
     <?php
+    $cont = 0;
     foreach ($eventos as $evento) {
         if ($evento[7] = 'pendiente'){
-            break
+            break;
         } elseif .count($eventos) = $cont{
             $query_programado1 = "UPDATE eventos SET estado = 'programado' WHERE lower(nombre_evento) = lower('$nombre_evento')
             AND lower(nombre_productora) LIKE lower('$productora') 
-            AND lower(pais) LIKE lower('$pais');;";
+            AND lower(pais) LIKE lower('$pais');";
             $result_programado1 = $db65 -> prepare($query_programado1);
             $result_programado1 -> execute();    
         }
