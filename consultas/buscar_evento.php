@@ -7,7 +7,7 @@
   <h1 align="center">Buscar evento por fecha</h1>
   <br>
 
-  <form align="center" action="consultas/buscar.php" method="post">
+  <form align="center" action="buscar.php" method="post">
     Fecha de Inicio:
     <input type="date" name="fecha_inicio">
     <br/><br/>

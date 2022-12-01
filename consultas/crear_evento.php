@@ -9,7 +9,7 @@
 
   <h3 align="center"> ¿Quieres crear un evento?</h3>
 
-  <form align="center" action="consultas/crear.php" method="post">
+  <form align="center" action="crear.php" method="post">
     Nombre Evento:
     <input type="text" name="nombre_evento">
     <br/><br/>
