@@ -53,24 +53,24 @@
     }?>
 
     <?php
-    if ($cond == TRUE){?>
-       <table>
+    #if ($cond == TRUE){?>
+       <!-- <table>
     <tr>
     <th>Nombre Tour</th>
     <th>Fecha inicio</th>
     <th>Fecha termino</th>
     <th>Nombre artista</th>
-    </tr>
+    </tr> -->
 
     <?php
-    foreach ($exists as $exist) {
-        echo "<tr><td>$exist[0]</td><td>$exist[1]</td><td>$exist[2]</td><td>$exist[3]</td>
-        </tr>";
-	}
+    // foreach ($exists as $exist) {
+    //     echo "<tr><td>$exist[0]</td><td>$exist[1]</td><td>$exist[2]</td><td>$exist[3]</td>
+    //     </tr>";
+	// }
     ?>
     </table> 
   
-    <?php}# elseif($cond == FALSE){?>
+    <?php#}# elseif($cond == FALSE){?>
 
     <!-- <h3 align="center"> No existe un tour asociado al evento</h3> -->
 
