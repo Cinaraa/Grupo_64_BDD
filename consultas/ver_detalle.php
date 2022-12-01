@@ -35,21 +35,21 @@
 	</table>
 
     <?php
-    // $query1 = "SELECT * FROM tours;";
-    // $result1 = $db65 -> prepare($query1);
-    // $result1 -> execute();
-    // $tours = $result1 -> fetchAll();
+    $query1 = "SELECT * FROM tours;";
+    $result1 = $db65 -> prepare($query1);
+    $result1 -> execute();
+    $tours = $result1 -> fetchAll();
     ?>
 
     <?php
 
     $exists = [['-','-','-','-']]
-    // foreach ($tours as $tour) {
-    //     if ($tour[0] == $nombre_evento){
-    //         $exists = $tour;
-    //         break;
-    //     } 
-    // }?>
+    foreach ($tours as $tour) {
+        if ($tour[0] == $nombre_evento){
+            $exists = $tour;
+            break;
+        } 
+    }?>
 
     <table>
     <tr>
