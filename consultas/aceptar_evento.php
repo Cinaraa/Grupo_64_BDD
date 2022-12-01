@@ -33,25 +33,19 @@
     $result_programado = $db65 -> prepare($query_programado);
     $result_programado -> execute();
     $eventos = $result_programado -> fetchAll();
-
-    $query_cont = "SELECT  COUNT(*) FROM eventos WHERE lower(nombre_evento) = lower('$nombre_evento')
-    AND lower(nombre_productora) LIKE lower('$productora') 
-    AND lower(pais) LIKE lower('$pais');";
-
-    $result_cont = $db65 -> prepare($query_cont);
-    $result_cont -> execute();
-    $number = $result_cont -> fetchAll();
-    $msg = "$number";
-    header("Location: ../index.php?msg=$msg");
     ?>
 
     <?php
     $cont = 0;
-
+    $rows = 0;
+    foreach ($eventos as $evento) {
+        $rows++;
+    }    
+    
     foreach ($eventos as $evento) {
         if ($evento[7] = 'pendiente'){
             break;
-        } elseif (intval($number) = $cont) {
+        } elseif ($rows = $cont) {
             $query_programado1 = "UPDATE eventos SET estado = 'programado' WHERE lower(nombre_evento) = lower('$nombre_evento')
             AND lower(nombre_productora) LIKE lower('$productora') 
             AND lower(pais) LIKE lower('$pais');";
@@ -60,6 +54,7 @@
         }
         $cont++;
     }
+
 
 ?>
 
