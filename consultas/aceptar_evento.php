@@ -26,7 +26,7 @@
 
 
     #Revisa si todos los eventos estan aceptados y ahi los pone como programado
-    $query_programado = "SELECT * FROM eventos WHERE lower(nombre_evento) = lower('$nombre_evento')
+    $query_programado = "SELECT * FROM eventos WHERE lower(nombre_evento) LIKE lower('$nombre_evento')
     AND lower(nombre_productora) LIKE lower('$productora') 
     AND lower(pais) LIKE lower('$pais');";
 
@@ -34,6 +34,43 @@
     $result_programado -> execute();
     $eventos = $result_programado -> fetchAll();
     ?>
+
+
+
+
+
+
+<table>
+    <tr>
+	  <th>Nombre Evento</th>
+      <th>Recinto</th>
+	  <th>Ciudad</th>
+	  <th>Pais</th>
+      <th>Fecha de Inicio</th>
+	  <th>Productora</th>
+      <th>Estado</th>
+
+    </tr>
+  <?php
+	foreach ($eventos as $evento) {
+  		echo "<tr><td>$evento[0]</td>
+        <td>$evento[1]</td>
+        <td>$evento[3]</td>
+        <td>$evento[4]</td>
+        <td>$evento[5]</td>
+        <td>$evento[6]</td>
+        <td>$evento[6]</td>
+        </tr>";
+	}
+  ?>
+	</table>
+
+
+
+
+
+
+
 
     <?php
     $rows = 0;
@@ -54,8 +91,8 @@
         }
         $cont += 1;
     }
-    $msg = "$rows-$cont";
-    header("Location: ../index.php?msg=$msg");
+    #$msg = "$rows-$cont";
+    #header("Location: ../index.php?msg=$msg");
 
 ?>
 
