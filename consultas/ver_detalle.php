@@ -43,40 +43,31 @@
 
     <?php
 
-    $cond = FALSE;
+    $exists = array('-','-','-','-')
     foreach ($tours as $tour) {
         if ($tour[0] == $nombre_evento){
             $exists = $tour;
-            $cond = TRUE;
             break;
         } 
     }?>
 
-    <?php
-    #if ($cond == TRUE){?>
-       <!-- <table>
+    <table>
     <tr>
     <th>Nombre Tour</th>
     <th>Fecha inicio</th>
     <th>Fecha termino</th>
     <th>Nombre artista</th>
-    </tr> -->
+    </tr>
 
     <?php
-    // foreach ($exists as $exist) {
-    //     echo "<tr><td>$exist[0]</td><td>$exist[1]</td><td>$exist[2]</td><td>$exist[3]</td>
-    //     </tr>";
-	// }
+    foreach ($exists as $exist) {
+        echo "<tr><td>$exist[0]</td><td>$exist[1]</td><td>$exist[2]</td><td>$exist[3]</td>
+        </tr>";
+	}
     ?>
     </table> 
-  
-    <?php#}# elseif($cond == FALSE){?>
+ 
 
-    <!-- <h3 align="center"> No existe un tour asociado al evento</h3> -->
-
-    <?php#}
-?>
-    
 <form action="eventos_programados.php" method="get">
     <input type="submit" value="Volver">
 </form>
