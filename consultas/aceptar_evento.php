@@ -46,10 +46,10 @@
     $cont = 0;
     $que = "no_entra";
     foreach ($eventos as $evento) {
+        $cont += 1;
         if ($evento[7] = 'pendiente'){
             break;
         } if ($rows = $cont) {
-            $cont += 1;
             $query_programado1 = "UPDATE eventos SET estado = 'programado' WHERE lower(nombre_evento) = lower('$nombre_evento')
             AND lower(nombre_productora) LIKE lower('$productora') 
             AND lower(pais) LIKE lower('$pais');";
