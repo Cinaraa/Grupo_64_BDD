@@ -34,6 +34,9 @@
     $result_programado -> execute();
     $eventos = $result_programado -> fetchAll();
 
+    ?>
+
+    <?php
     $cont = 0 
     foreach ($eventos as $evento) {
         if ($evento[7] = 'pendiente'){
