@@ -11,17 +11,17 @@
 
 <?php
   #Llama a conexión, crea el objeto PDO y obtiene la variable $db
-  $nombre_evento = $_POST["nombre_evento"];
-  $nombre_evento = strval($nombre_evento);
+  $nombre_evento = '';
+  $nombre_evento .= $_POST["nombre_evento"];
 
-  $nombre_recinto = $_POST["nombre_recinto"];
-  $nombre_recinto = strval($nombre_recinto);
+  $nombre_recinto = '';
+  $nombre_recinto .= $_POST["nombre_recinto"];
 
-  $nombre_artista = $_POST["nombre_artista"];
-  $nombre_artista = strval($nombre_artista);
+  $nombre_artista = '';
+  $nombre_artista .= $_POST["nombre_artista"];
 
-  $ciudad = $_POST["ciudad"];
-  $ciudad = strval($ciudad);
+  $ciudad = '';
+  $ciudad .= $_POST["ciudad"];
 
   $fecha_inicio = $_POST["fecha_inicio"];
   $fecha_inicio = date($fecha_inicio);

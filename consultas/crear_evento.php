@@ -25,7 +25,7 @@
     Fecha de Inicio:
     <input type="date" name="fecha_inicio" required> 
     <br/><br/>
-    <input type="submit" value="Buscar">
+    <input type="submit" value="Crear">
   </form>
 
   <br>
