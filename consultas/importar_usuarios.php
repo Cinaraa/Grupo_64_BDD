@@ -43,7 +43,7 @@
 		$nombre_usuario_prod = str_replace('.', '', $nombre_usuario_prod);
 		$nombre_usuario_prod = str_replace(' ', '_', $nombre_usuario_prod);
 		$nombre_usuario_productora = strtolower($nombre_usuario_prod);
-		$insert_2 -> execute(array($nombre_usuario_productora,strval(random_int(100000, 999999)), 'productora', strval($productora[1]), strvalue($productora[2])));
+		$insert_2 -> execute(array($nombre_usuario_productora,strval(random_int(100000, 999999)), 'productora', strval($productora[1]), strval($productora[2])));
 	}
   ?>
 
