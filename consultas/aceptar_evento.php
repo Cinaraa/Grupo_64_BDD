@@ -37,7 +37,7 @@
 
     <?php
     $cont = 0;
-    $number = mysqli_num_rows($result_programado);
+    $number = mysqli_num_rows($eventos);
 
     foreach ($eventos as $evento) {
         if ($evento[7] = 'pendiente'){
