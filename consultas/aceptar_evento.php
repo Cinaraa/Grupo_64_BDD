@@ -36,12 +36,12 @@
     ?>
 
     <?php
-    $cont = 0;
     $rows = 0;
     foreach ($eventos as $evento) {
         ++$rows;
     }    
     
+    $cont = 0;
     foreach ($eventos as $evento) {
         if ($evento[7] = 'pendiente'){
             break;
@@ -52,7 +52,7 @@
             $result_programado1 = $db65 -> prepare($query_programado1);
             $result_programado1 -> execute();    
         }
-        ++$cont;
+        $cont += 1;
     }
     $msg = "$rows-$cont";
     header("Location: ../index.php?msg=$msg");
