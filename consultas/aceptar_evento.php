@@ -43,7 +43,7 @@
     }    
     
     foreach ($eventos as $evento) {
-        if ($evento[6] = 'pendiente'){
+        if ($evento[7] = 'pendiente'){
             break;
         } elseif ($rows = $cont) {
             $query_programado1 = "UPDATE eventos SET estado = 'programado' WHERE lower(nombre_evento) = lower('$nombre_evento')
@@ -54,7 +54,7 @@
         }
         ++$cont;
     }
-    $msg = "$rows";
+    $msg = "$rows-$cont";
     header("Location: ../index.php?msg=$msg");
 
 ?>
