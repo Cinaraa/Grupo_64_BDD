@@ -21,7 +21,7 @@
     $result_acepto = $db65 -> prepare($query_acepto);
     $result_acepto -> execute();
 
-    $msg = "Evento aceptado";
+    #$msg = "Evento aceptado";
     #header("Location: ../index.php?msg=$msg");
 
 
@@ -41,6 +41,8 @@
     $result_cont = $db65 -> prepare($query_cont);
     $result_cont -> execute();
     $number = $result_cont -> fetchAll();
+    $msg = "$number";
+    header("Location: ../index.php?msg=$msg");
     ?>
 
     <?php
