@@ -40,7 +40,7 @@
     foreach ($eventos as $evento) {
         if ($evento[7] = 'pendiente'){
             break;
-        } elseif .count($eventos) = $cont{
+        } elseif count($eventos) = $cont{
             $query_programado1 = "UPDATE eventos SET estado = 'programado' WHERE lower(nombre_evento) = lower('$nombre_evento')
             AND lower(nombre_productora) LIKE lower('$productora') 
             AND lower(pais) LIKE lower('$pais');";
