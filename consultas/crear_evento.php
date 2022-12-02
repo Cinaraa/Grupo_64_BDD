@@ -7,7 +7,7 @@
   <h1 align="center">Crear Evento </h1>
   <br>
 
-  <h3 align="center"> ¿Quieres crear un evento?</h3>
+  <h3 align="center">Registra los datos de tu propuesta</h3>
 
   <form align="center" action="crear.php" method="post">
     Nombre Evento:

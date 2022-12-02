@@ -16,7 +16,10 @@
 	$hospedajes = $result -> fetchAll();
   ?>
 
-	<table>
+<h2> Hospedajes de <?php  echo $nombre_art ?> </h2>
+<br>
+<br>
+	<table align="center">
     <tr>
       <th>Lugar</th>
       <th>Hotel</th>

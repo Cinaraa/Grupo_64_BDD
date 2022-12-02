@@ -28,7 +28,7 @@ include('../templates/header.html');   ?>
 	$eventos = $result -> fetchAll();
   ?>
 
-<table>
+<table align="center">
     <tr>
 	  <th>Nombre Evento</th>
     <th>Nombre Artista</th>

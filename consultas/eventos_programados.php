@@ -15,10 +15,10 @@
 	$result -> execute();
 	$eventos = $result -> fetchAll();
   ?>
-<h2> Eventos programados de: <?php  echo $nombre_art ?> </h2>
+<h2> Eventos programados de <?php  echo $nombre_art ?> </h2>
 <br>
 <br>
-	<table>
+	<table align="center">
     <tr>
 	  <th>Nombre Evento</th>
     <th>Recinto</th>

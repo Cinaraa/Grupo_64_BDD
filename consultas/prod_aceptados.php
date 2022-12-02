@@ -16,7 +16,10 @@
 	$eventos = $result -> fetchAll();
   ?>
 
-	<table>
+<h2> Eventos aceptados de <?php  echo $nombre_prod ?> </h2>
+<br>
+<br>
+	<table align="center">
     <tr>
 	  <th>Nombre Evento</th>
     <th>Recinto</th>
