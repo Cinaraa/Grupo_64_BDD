@@ -1,6 +1,8 @@
 <?php session_start(); ?>
-<?php include('templates/header.html');   ?>
-
+<head>
+  <title>DCCarnaval</title>
+  <link rel="stylesheet" href="styles/mystyles.css">
+</head>
 
 <body>
 
