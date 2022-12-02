@@ -31,7 +31,7 @@ Es mucho más fácil implementar una plantilla de Bootstrap que cambiar estas co
 
 .navbar ul li {
     list-style: none;
-    display: inline_block;
+    display: inline-block;
     margin: 0 20 px;
     position: relative;
 }
