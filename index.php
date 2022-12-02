@@ -21,6 +21,7 @@
 <?php
 // Si no está asignada la variable mostrar form para ingresar 
   if(!isset($_SESSION['nombre_usuario'])){?>
+
   <h1 align="center">Inicio de sesión </h1>
   <p style="text-align:center;">Aquí podrás iniciar sesión.</p>
   <div>
@@ -37,6 +38,17 @@
     <h2 align="center"> Bienvenido <?php echo $_SESSION['nombre_usuario'] ?>! </h2>
 
     <?php if ($_SESSION['tipo'] == 'artista') { ?>
+      <div class="navbar">
+        <img src="styles/logo.png" class="logo">
+        <ul>
+          <li><a herf='#'>Eventos programados</a></li>
+          <li><a herf='#'>Eventos pendientes</a></li>
+          <li><a herf='#'>Eventos aceptados</a></li>
+          <li><a herf='#'>Hospedajes</a></li>
+          <li><a herf='#'>Eventos programados</a></li>
+        </ul>
+        </img>
+      </div>
         <form align="center" action="consultas/eventos_programados.php" method="post">
             <button type="submit" >Eventos programados</button>
         </form>

@@ -33,6 +33,7 @@ Es mucho más fácil implementar una plantilla de Bootstrap que cambiar estas co
     list-style: none;
     display: inline_block;
     margin: 0 20 px;
+    position: relative;
 }
 
 .navbar ul li a {
@@ -44,14 +45,17 @@ Es mucho más fácil implementar una plantilla de Bootstrap que cambiar estas co
 .navbar ul li::after {
     content: '';
     height: 3px;
-    width: 100%;
+    width: 0;
     background: #009688;
     position: absolute;
     left: 0;
-    bottom: 0;
-
+    bottom: -10px;
+    transition: 0.5s;
 }
 
+.navbar ul li:hover::after {
+    width: 100%;
+}
 
 input {
     width: 10%;
