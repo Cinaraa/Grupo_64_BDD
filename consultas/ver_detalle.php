@@ -78,7 +78,7 @@
 
 <table>
     <tr>
-    <th>Entradas de Cortesía</th>
+    <th colspan="3">Entradas de Cortesía</th>
     </tr>
     <tr>
     <th>Categoría</th>
