@@ -46,7 +46,7 @@
     $exists = [['-','-','-','-']];
     foreach ($tours as $tour) {
         if ($tour[0] == $nombre_evento){
-            $exists = [$tour[0], $tour[1], $tour[2], $tour[3]];
+            $exists = [$tour['nombre_tour'], $tour['fecha_inicio'], $tour['fecha_termino'], $tour['nombre_artista']];
         } 
     }?>
 
