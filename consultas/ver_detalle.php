@@ -91,15 +91,11 @@
         echo "<tr><td>$exist[2]</td><td>$exist[4]</td><td>$exist[5]</td></tr>";
 	}
     ?>
+</table>
+<br>
+<br>
+<br>
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
 <form action="eventos_programados.php" method="get">
     <input type="submit" value="Volver">
