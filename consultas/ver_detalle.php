@@ -77,12 +77,11 @@
     ?>
 
 <table>
-    <tr>Entradas de Cortesía</th>
+    <th>Entradas de Cortesía</th>
     <tr>
     <th>Categoría</th>
     <th>Número de asiento</th>
     <th>Tipo</th>
-    </tr>
     </tr>
 
     <?php
