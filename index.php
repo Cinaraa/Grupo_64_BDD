@@ -8,7 +8,17 @@
   <div class="banner">
     <div class="navbar">
       <img src="styles/logo.png" class="logo">
-      
+      <?php if(!isset($_SESSION['nombre_usuario'])){?>
+        <?php if ($_SESSION['tipo'] == 'artista') { ?>
+          <ul>
+            <li><a herf='#'>Eventos programados</a></li>
+            <li><a herf='#'>Eventos pendientes</a></li>
+            <li><a herf='#'>Eventos aceptados</a></li>
+            <li><a herf='#'>Hospedajes</a></li>
+            <li><a herf='#'>Eventos programados</a></li>
+          </ul>
+        <?php } ?>
+      <?php } ?>
       </img>
     </div>
   </div>
