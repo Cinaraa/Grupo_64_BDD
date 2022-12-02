@@ -6,7 +6,11 @@
 
 <body>
   <div class="banner">
-  
+    <div class="navbar">
+      <img src="styles/logo.png" class="logo">
+      
+      </img>
+    </div>
   </div>
   <div class="columns is-centered">
     <a class="is-underlined has-text-info" href="consultas/importar_usuarios.php">Importar Usuarios</a>
