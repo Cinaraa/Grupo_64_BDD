@@ -18,7 +18,6 @@
 
 <h2> Eventos rechazados de <?php  echo $nombre_prod ?> </h2>
 <br>
-<br>
 	<table align="center">
     <tr>
 	  <th>Nombre Evento</th>

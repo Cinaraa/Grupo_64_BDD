@@ -18,7 +18,6 @@
 
 <h2> Eventos programados de <?php  echo $nombre_prod ?> </h2>
 <br>
-<br>
 
 	<table align="center">
     <tr>

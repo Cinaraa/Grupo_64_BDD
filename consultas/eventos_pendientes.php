@@ -17,7 +17,6 @@
   ?>
 <h2> Eventos pendientes de <?php  echo $nombre_art ?> </h2>
 <br>
-<br>
 	<table align="center">
     <tr>
 	  <th>Nombre Evento</th>
