@@ -35,6 +35,12 @@ Es mucho más fácil implementar una plantilla de Bootstrap que cambiar estas co
     margin: 0 20 px;
 }
 
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
 input {
     width: 10%;
     height: 20px;
