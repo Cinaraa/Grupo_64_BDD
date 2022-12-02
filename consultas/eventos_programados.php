@@ -15,7 +15,9 @@
 	$result -> execute();
 	$eventos = $result -> fetchAll();
   ?>
-
+<h2> Eventos programados de: <?php  echo $nombre_art ?> </h2>
+<br>
+<br>
 	<table>
     <tr>
 	  <th>Nombre Evento</th>
