@@ -49,7 +49,8 @@
             $exists = [[$tour['nombre_tour'], $tour['fecha_inicio'], $tour['fecha_termino'], $tour['nombre_artista']]];
         } 
     }?>
-
+<br>
+<br>
     <table>
     <tr>
     <th>Nombre Tour</th>
@@ -65,7 +66,30 @@
 	}
     ?>
     </table> 
- 
+<br>
+<br>
+
+<?php 
+    $query3 = "SELECT * FROM entradas WHERE lower(nombre_evento) LIKE lower('$nombre_evento') ORDER BY categoria;";
+    $result = $db64 -> prepare($query3);
+    $result -> execute();
+    $entradas = $result -> fetchAll();
+    ?>
+
+<table>
+    <tr>
+    <th>Categoría</th>
+    <th>Número de asiento</th>
+    <th>Tipo</th>
+
+    </tr>
+
+    <?php
+    foreach ($entradas as $entrada) {
+        echo "<tr><td>$exist[2]</td><td>$exist[4]</td><td>$exist[5]</td></tr>";
+	}
+    ?>
+
 
 <form action="eventos_programados.php" method="get">
     <input type="submit" value="Volver">
