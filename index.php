@@ -5,7 +5,9 @@
 </head>
 
 <body>
-
+  <div class="banner">
+  
+  </div>
   <div class="columns is-centered">
     <a class="is-underlined has-text-info" href="consultas/importar_usuarios.php">Importar Usuarios</a>
   </div>
