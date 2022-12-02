@@ -77,7 +77,9 @@
     ?>
 
 <table>
-    <tr>Entradas de Cortesía</tr>
+    <tr>
+    <th>Entradas de Cortesía</th>
+    </tr>
     <tr>
     <th>Categoría</th>
     <th>Número de asiento</th>
