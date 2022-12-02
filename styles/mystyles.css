@@ -24,6 +24,17 @@ Es mucho más fácil implementar una plantilla de Bootstrap que cambiar estas co
     justify-content: space-between;
 }
 
+.logo {
+    width: 120px;
+    cursor: pointer;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline_block;
+    margin: 0 20 px;
+}
+
 input {
     width: 10%;
     height: 20px;
