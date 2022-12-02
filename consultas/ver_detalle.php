@@ -21,7 +21,7 @@
     $artistas = $result -> fetchAll();
     ?>
 
-    <table>
+    <table align="center">
     <tr>
 	  <th>Artistas invitados</th>
     </tr>
@@ -51,7 +51,7 @@
     }?>
 <br>
 <br>
-    <table>
+    <table align="center">
     <tr>
     <th>Nombre Tour</th>
     <th>Fecha inicio</th>
@@ -76,7 +76,7 @@
     $entradas = $result -> fetchAll();
     ?>
 
-<table>
+<table align="center">
     <tr>
     <th colspan="3">Entradas de Cortesía</th>
     </tr>
