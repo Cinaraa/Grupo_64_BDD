@@ -78,10 +78,12 @@
 
 <table>
     <tr>
+    <th>Entradas de Cortesía</th>
+    <tr>
     <th>Categoría</th>
     <th>Número de asiento</th>
     <th>Tipo</th>
-
+    </tr>
     </tr>
 
     <?php
@@ -90,6 +92,10 @@
 	}
     ?>
 
+<br>
+<br>
+<br>
+<br>
 
 <form action="eventos_programados.php" method="get">
     <input type="submit" value="Volver">
