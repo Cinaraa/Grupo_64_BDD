@@ -21,6 +21,8 @@
     $artistas = $result -> fetchAll();
     ?>
 
+<h2> Evento: <?php  $nombre_evento; ?> </h2>
+
     <table align="center">
     <tr>
 	  <th>Artistas invitados</th>
