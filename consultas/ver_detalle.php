@@ -96,6 +96,10 @@
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
 
 <form action="eventos_programados.php" method="get">
     <input type="submit" value="Volver">
