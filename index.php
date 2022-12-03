@@ -44,7 +44,7 @@
 
 
         <?php } else { ?>
-          <h2 align="center"> Bienvenido <?php echo $_SESSION['nombre_usuario'] ?>! </h2>
+          <h1> Bienvenido <?php echo $_SESSION['nombre_usuario'] ?>! </h1>
         <?php } ?>
         <a class="is-underlined has-text-info" href="consultas/importar_usuarios.php">Importar  Usuarios</a>
 
@@ -128,15 +128,5 @@
   <br>
   <br>
 
-  <h1 align="center">Buscador informacion de eventos </h1>
-  <p style="text-align:center;">Aquí podrás encontrar información sobre tus eventos favoritos.</p>
-
-
-  <h3 align="center"> usuarios</h3>
-
-  <form align="center" action="consultas/consulta_2.php" method="post">
-    <br>
-    <input type="submit" value="Buscar">
-  </form>
 </body>
 </html>
