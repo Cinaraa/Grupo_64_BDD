@@ -17,7 +17,7 @@
 
 <h2> Hospedajes de <?php  echo $nombre_art ?> </h2>
 <br>
-	<table align="center">
+	<table style="margin-left:auto;margin-right:auto;">
     <tr>
       <th>Lugar</th>
       <th>Hotel</th>

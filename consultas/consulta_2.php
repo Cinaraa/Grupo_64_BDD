@@ -12,7 +12,7 @@
 	$usuarios = $result -> fetchAll();
   ?>
 
-	<table>
+	<table style="margin-left:auto;margin-right:auto;">
     <tr>
 	  <th>Id</th>
       <th>Nombre</th>

@@ -23,7 +23,7 @@
 
 <h2> Evento: <?php  echo $nombre_evento ?> </h2>
 
-    <table align="center">
+    <table style="margin-left:auto;margin-right:auto;">
     <tr>
 	  <th>Artistas invitados</th>
     </tr>
@@ -53,7 +53,7 @@
     }?>
 <br>
 <br>
-    <table align="center">
+    <table style="margin-left:auto;margin-right:auto;">
     <tr>
     <th>Nombre Tour</th>
     <th>Fecha inicio</th>
@@ -78,7 +78,7 @@
     $entradas = $result -> fetchAll();
     ?>
 
-<table align="center">
+<table style="margin-left:auto;margin-right:auto;">
     <tr>
     <th colspan="3">Entradas de Cortesía</th>
     </tr>

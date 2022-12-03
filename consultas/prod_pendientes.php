@@ -18,7 +18,7 @@
 <h2> Eventos pendientes de <?php  echo $nombre_prod ?> </h2>
 <br>
 
-	<table align="center">
+	<table style="margin-left:auto;margin-right:auto;">
     <tr>
 	  <th>Nombre Evento</th>
     <th>Recinto</th>
