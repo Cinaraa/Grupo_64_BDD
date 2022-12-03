@@ -32,6 +32,15 @@
     <div class="content">
       <?php if(!isset($_SESSION['nombre_usuario'])){?>
         <h1>Iniciar Sesion:</h1>
+        <div>
+          <form method="POST" action = 'login.php'>
+            <input type="text" name="nombre_usuario" required>
+            <input type="password" name="contrasena" required>
+            <button type="submit" name="login">Login</button>
+          </form> 
+        </div>
+
+
       <?php } ?>
         <a class="is-underlined has-text-info" href="consultas/importar_usuarios.php">Importar  Usuarios</a>
 
