@@ -9,23 +9,11 @@
     <div class="navbar">
       <img src="styles/logo.png" class="logo">
       <?php if(isset($_SESSION['nombre_usuario'])){?>
-        <?php if ($_SESSION['tipo'] == 'artista') { ?>
-          <ul>
-            <li><a herf='#'>Eventos programados</a></li>
-            <li><a herf='#'>Pendientes</a></li>
-            <li><a herf='#'>Aceptados</a></li>
-            <li><a herf='#'>Hospedajes</a></li>
-          </ul>
-        <?php } ?>
-        <?php if ($_SESSION['tipo'] == 'productora') { ?>
-          <ul>
-            <li><a herf='#'>Eventos programados</a></li>
-            <li><a herf='#'>Pendientes</a></li>
-            <li><a herf='#'>Aceptados</a></li>
-            <li><a herf='#'>rechazados</a></li>
-            <li><a herf='#'>Hospedajes</a></li>
-          </ul>
-        <?php } ?>
+
+        <ul>
+          <li><a herf='#'>Cerrar sesion</a></li>
+        </ul>
+
       <?php } ?>
       </img>
     </div>
