@@ -131,6 +131,7 @@
     <h2 align="center"> Bienvenido <?php echo $_SESSION['nombre_usuario'] ?>! </h2>
 
     <?php if ($_SESSION['tipo'] == 'artista') { ?>
+        <br>
         <form align="center" action="consultas/eventos_programados.php" method="post">
             <button type="submit" >Eventos programados</button>
         </form>
@@ -149,6 +150,7 @@
     <?php } ?>
 
     <?php if ($_SESSION['tipo'] == 'productora') { ?>
+      <br>
         <form align="center" action="consultas/prod_programados.php" method="post">
             <button type="submit" >Eventos programados</button>
         </form>
