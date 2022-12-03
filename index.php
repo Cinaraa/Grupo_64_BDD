@@ -46,10 +46,6 @@
         <?php } else { ?>
           <h1> Bienvenido <?php echo $_SESSION['nombre_usuario'] ?>! </h1>
 
-          <form align="center" action="logout.php" method="post">
-          <button type="submit" class="btn btn-primary">Cerrar Sesión</button>
-
-        
             <?php if ($_SESSION['tipo'] == 'artista') { ?>
               <form align="center" action="consultas/eventos_programados.php" method="post">
                   <button type="submit" >Eventos programados</button>
@@ -92,17 +88,23 @@
             <form align="center" action="consultas/crear_evento.php" method="post">
                 <button type="submit" >Crear evento</button>
             </form>
+
+          
         <?php } ?>
 
+        
+
+
+
+        <form align="center" action="logout.php" method="post">
+        <button type="submit" class="btn btn-primary">Cerrar Sesión</button>
+        </form>
 
 
 
 
 
-
-
-
-        <?php } ?>
+      <?php } ?>
     </form>
         <a class="is-underlined has-text-info" href="consultas/importar_usuarios.php">Importar  Usuarios</a>
 
