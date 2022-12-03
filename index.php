@@ -12,10 +12,9 @@
         <?php if ($_SESSION['tipo'] == 'artista') { ?>
           <ul>
             <li><a herf='#'>Eventos programados</a></li>
-            <li><a herf='#'>Eventos pendientes</a></li>
-            <li><a herf='#'>Eventos aceptados</a></li>
+            <li><a herf='#'>Pendientes</a></li>
+            <li><a herf='#'>Aceptados</a></li>
             <li><a herf='#'>Hospedajes</a></li>
-            <li><a herf='#'>Eventos programados</a></li>
           </ul>
         <?php } ?>
       <?php } ?>
