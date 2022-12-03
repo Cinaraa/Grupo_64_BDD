@@ -34,6 +34,8 @@
         <h1>Iniciar Sesion:</h1>
       <?php } ?>
         <a class="is-underlined has-text-info" href="consultas/importar_usuarios.php">Importar  Usuarios</a>
+
+    </div>
   </div>
   <div class="columns is-centered">
     <a class="is-underlined has-text-info" href="consultas/importar_usuarios.php">Importar Usuarios</a>
