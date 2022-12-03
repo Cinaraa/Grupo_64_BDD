@@ -69,12 +69,14 @@ Es mucho más fácil implementar una plantilla de Bootstrap que cambiar estas co
 .content h1 {
     font-size: 70px;
     margin-top: 80px;
+    color: #fff;
 }
 
 .content p {
     margin: 20px auto;
     font-weight: 100;
     line-height: 25px;
+    color: #fff;
 }
 
 button {
@@ -88,6 +90,7 @@ button {
     background: transparent;
     color: #fff;
     cursor: pointer;
+
 
 }
 
