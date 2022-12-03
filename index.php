@@ -32,10 +32,11 @@
     <div class="content">
       <?php if(!isset($_SESSION['nombre_usuario'])){?>
         <h1>Iniciar Sesion:</h1>
+        <p>Aquí podrás iniciar sesión</p>
         <div>
           <form method="POST" action = 'login.php'>
-            <input type="text" name="nombre_usuario" required>
-            <input type="password" name="contrasena" required>
+            <p>Nombre de usuario</p><input type="text" name="nombre_usuario" required>
+            <p>contraseña</p><input type="password" name="contrasena" required>
             <button type="submit" name="login">Login</button>
           </form> 
         </div>
