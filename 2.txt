@@ -11,6 +11,7 @@
       <?php if(isset($_SESSION['nombre_usuario'])){?>
 
         <ul>
+          <li><a herf='#'>Cerrar sesion</a></li>
         </ul>
 
       <?php } ?>
@@ -26,9 +27,8 @@
             <p>contraseña</p><input type="password" name="contrasena" required>
             <br>
             <button type="submit" name="login">Login</button>
-          </form>
+          </form> 
         </div>
-        <a class="is-underlined has-text-info" href="consultas/importar_usuarios.php">Importar  Usuarios</a>
 
 
         <?php } else { ?>
@@ -93,6 +93,8 @@
 
 
       <?php } ?>
+    </form>
+        <a class="is-underlined has-text-info" href="consultas/importar_usuarios.php">Importar  Usuarios</a>
 
     </div>
   </div>
