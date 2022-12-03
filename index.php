@@ -37,6 +37,7 @@
           <form method="POST" action = 'login.php'>
             <p>Nombre de usuario</p><input type="text" name="nombre_usuario" required>
             <p>contraseña</p><input type="password" name="contrasena" required>
+            <br>
             <button type="submit" name="login">Login</button>
           </form> 
         </div>
