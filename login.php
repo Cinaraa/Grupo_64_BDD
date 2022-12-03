@@ -1,7 +1,5 @@
 <?php
-// Llamar a la función al inicio del script 
 session_start();
-// Almacenar variables de sesión en array global 
 ?>
 <?php
   require("config/conexion.php");

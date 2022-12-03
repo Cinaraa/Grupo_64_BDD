@@ -3,7 +3,6 @@
 
 <body>
 <?php
-  #Llama a conexión, crea el objeto PDO y obtiene la variable $db
   require("../config/conexion.php");
 
     $nombre_prod = $_SESSION['nombre'];

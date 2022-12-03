@@ -4,14 +4,12 @@ include('../templates/header.html');   ?>
 <body>
 
 <?php
-  #Llama a conexión, crea el objeto PDO y obtiene la variable $db
     require("../config/conexion.php");
     $nombre_prod = $_SESSION['nombre'];
     $pais = $_SESSION['pais'];
 ?>
 
 <?php
-  #Llama a conexión, crea el objeto PDO y obtiene la variable $db
   $f_inicio = $_POST["fecha_inicio"];
   $f_inicio = date($f_inicio);
 

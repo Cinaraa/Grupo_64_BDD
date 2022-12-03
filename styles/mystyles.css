@@ -1,5 +1,3 @@
-/* Este archivo no es necesario. Solo es para cambiar las propiedades de los objetos HTML
-Es mucho más fácil implementar una plantilla de Bootstrap que cambiar estas cosas a mano */
 * {
     margin: 0;
     padding: 0;
@@ -166,6 +164,7 @@ body {
     width: 100%;
     font-size: 20px;
     text-align: center;
+    background-color: black;
 }
 
 table.center {

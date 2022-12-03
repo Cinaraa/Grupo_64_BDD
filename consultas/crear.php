@@ -5,14 +5,12 @@
 <body>
 
 <?php
-  #Llama a conexión, crea el objeto PDO y obtiene la variable $db
     require("../config/conexion.php");
     $nombre_prod = $_SESSION['nombre'];
     $pais = $_SESSION['pais'];
 ?>
 
 <?php
-  #Llama a conexión, crea el objeto PDO y obtiene la variable $db
   $nombre_evento = '';
   $nombre_evento .= $_POST["nombre_evento"];
 
